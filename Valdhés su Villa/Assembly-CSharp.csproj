@@ -61,6 +61,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\Scripts\UniversalRoomController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\CameraTest1.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraControl.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
