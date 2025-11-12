@@ -26,20 +26,20 @@ public class UniversalRoomController : MonoBehaviour
     private bool isRotating = false;
     private Dictionary<Transform, Vector3> objectLocalPositions = new Dictionary<Transform, Vector3>();
 
-    // Правильные позиции камеры для 4 направлений
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 4 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     private readonly Vector3[] cameraPositions = {
-        new Vector3(3.105f, 2.872f, -4.943f),  // Вид 0: North-West
-        new Vector3(-4.943f, 2.872f, -3.105f), // Вид 1: North-East  
-        new Vector3(-3.105f, 2.872f, 4.943f),  // Вид 2: South-East
-        new Vector3(4.943f, 2.872f, 3.105f)    // Вид 3: South-West
+        new Vector3(3.105f, 2.872f, -4.943f),  // пїЅпїЅпїЅ 0: North-West
+        new Vector3(-4.943f, 2.872f, -3.105f), // пїЅпїЅпїЅ 1: North-East  
+        new Vector3(-3.105f, 2.872f, 4.943f),  // пїЅпїЅпїЅ 2: South-East
+        new Vector3(4.943f, 2.872f, 3.105f)    // пїЅпїЅпїЅ 3: South-West
     };
 
-    // Правильные повороты камеры для 4 направлений
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 4 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     private readonly Vector3[] cameraRotations = {
-        new Vector3(17f, 310f, 0f),  // Вид 0: North-West
-        new Vector3(17f, 40f, 0f),   // Вид 1: North-East
-        new Vector3(17f, 130f, 0f),  // Вид 2: South-East
-        new Vector3(17f, 220f, 0f)   // Вид 3: South-West
+        new Vector3(17f, 310f, 0f),  // пїЅпїЅпїЅ 0: North-West
+        new Vector3(17f, 40f, 0f),   // пїЅпїЅпїЅ 1: North-East
+        new Vector3(17f, 130f, 0f),  // пїЅпїЅпїЅ 2: South-East
+        new Vector3(17f, 220f, 0f)   // пїЅпїЅпїЅ 3: South-West
     };
 
     private readonly WallConfig[] wallConfigs = {
