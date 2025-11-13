@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\camerazoomscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\universalroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\universalroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\universalroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\cameratest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\cameratest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,16 +41,16 @@
               "Title": "CameraZOOMscript.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\CameraZOOMscript.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\CameraZOOMscript.cs",
-              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\CameraZOOMscript.cs",
-              "RelativeToolTip": "Assets\\Scenes\\Scripts\\CameraZOOMscript.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\CameraZOOMscript.cs*",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\CameraZOOMscript.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T15:53:28.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UniversalRoomController.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\UniversalRoomController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\UniversalRoomController.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DebugUI.Fields.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs",
@@ -71,11 +71,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc\\Runtime\\Debugging\\DebugUI.Fields.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEECAADFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T10:39:38.209Z"
+              "WhenOpened": "2025-10-24T10:39:38.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CameraTest1.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\CameraTest1.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\CameraTest1.cs",

@@ -17,13 +17,14 @@ public class CameraZOOMscript : MonoBehaviour
     {
         float moveX = 0;
         float moveZ = 0;
+        float moveY = 0;
 
-        if (Input.GetKey(KeyCode.W)) moveZ += 1; // шаблон
-        if (Input.GetKey(KeyCode.S)) moveZ -= 1;
+        if (Input.GetKey(KeyCode.W)) moveY += 1; // шаблон
+        if (Input.GetKey(KeyCode.S)) moveY -= 1;
         if (Input.GetKey(KeyCode.A)) moveX -= 1;
         if (Input.GetKey(KeyCode.D)) moveX += 1;
 
-        transform.Translate(new Vector3(moveX, 0, moveZ) * speed * Time.deltaTime); // шаблон
+        transform.Translate(new Vector3(moveX, moveY, moveZ) * speed * Time.deltaTime); // шаблон
     }
 
     void ZoomCamera()
