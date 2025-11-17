@@ -440,6 +440,7 @@
 "Assets/Scenes/Scripts/CameraControl.cs"
 "Assets/Scenes/Scripts/CameraTest1.cs"
 "Assets/Scenes/Scripts/CameraZOOMscript.cs"
+"Assets/Scenes/Scripts/ItemUse.cs"
 "Assets/Scenes/Scripts/UniversalRoomController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
