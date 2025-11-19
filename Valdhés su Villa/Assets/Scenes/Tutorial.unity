@@ -841,6 +841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 390236222}
   - component: {fileID: 390236223}
+  - component: {fileID: 390236224}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -902,6 +903,24 @@ MonoBehaviour:
   - {fileID: 748428359}
   - {fileID: 651418841}
   rotationDuration: 0.5
+--- !u!114 &390236224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390236220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888f9a8a1a7f1c340a18ef93398e07b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WallController
+  walls:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  moveTime: 0.5
 --- !u!1001 &393715602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,7 +6003,7 @@ Transform:
   m_GameObject: {fileID: 2125744265}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.849, y: 0.18613096, z: 1.574}
+  m_LocalPosition: {x: 0.849, y: 0.18613096, z: 1.569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

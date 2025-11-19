@@ -64,7 +64,9 @@
     <Compile Include="Assets\Scenes\Scripts\UniversalRoomController.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraTest1.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ObjectWall.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scenes\Scripts\WallController.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraZOOMscript.cs" />
     <Compile Include="Assets\Scenes\Scripts\ItemUse.cs" />
   </ItemGroup>
