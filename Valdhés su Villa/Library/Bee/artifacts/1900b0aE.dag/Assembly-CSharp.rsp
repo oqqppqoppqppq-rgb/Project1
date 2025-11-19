@@ -441,6 +441,7 @@
 "Assets/Scenes/Scripts/CameraTest1.cs"
 "Assets/Scenes/Scripts/CameraZOOMscript.cs"
 "Assets/Scenes/Scripts/ItemUse.cs"
+"Assets/Scenes/Scripts/ObjectWall.cs"
 "Assets/Scenes/Scripts/UniversalRoomController.cs"
 "Assets/Scenes/Scripts/WallController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

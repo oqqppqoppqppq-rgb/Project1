@@ -840,8 +840,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 390236222}
-  - component: {fileID: 390236223}
   - component: {fileID: 390236224}
+  - component: {fileID: 390236226}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -864,45 +864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &390236223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390236220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac4a71b5b8e2700409841e4e7419a4b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UniversalRoomController
-  mainCamera: {fileID: 1762546714}
-  floor: {fileID: 1335082340}
-  WallNorthTest: {fileID: 1294641634}
-  wwt: {fileID: 1678538565}
-  swt: {fileID: 1426475025}
-  wet: {fileID: 1502861436}
-  northWallObjects:
-  - {fileID: 407899289}
-  - {fileID: 1713314653}
-  - {fileID: 1794916959}
-  - {fileID: 1405310455}
-  wwtObjects:
-  - {fileID: 609004464}
-  - {fileID: 1366663078}
-  - {fileID: 1386275011}
-  swtObjects:
-  - {fileID: 819953897}
-  - {fileID: 2009648747}
-  - {fileID: 1773418506}
-  - {fileID: 681075694}
-  wetObjects:
-  - {fileID: 1382891750}
-  - {fileID: 1631704799}
-  - {fileID: 80433268}
-  - {fileID: 748428359}
-  - {fileID: 651418841}
-  rotationDuration: 0.5
 --- !u!114 &390236224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -916,11 +877,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WallController
   walls:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1426475025}
+  - {fileID: 1502861436}
+  - {fileID: 1678538565}
+  - {fileID: 1294641634}
   moveTime: 0.5
+--- !u!114 &390236226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390236220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4568b2bf1498cad48a5c697e8478b4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WallObjects
+  wallController: {fileID: 0}
+  objectsForWall0:
+  - {fileID: 819953897}
+  - {fileID: 2009648747}
+  objectsForWall1:
+  - {fileID: 1382891750}
+  - {fileID: 1631704799}
+  - {fileID: 80433268}
+  - {fileID: 651418841}
+  objectsForWall2:
+  - {fileID: 609004464}
+  - {fileID: 1366663078}
+  - {fileID: 1386275011}
+  objectsForWall3:
+  - {fileID: 407899289}
+  - {fileID: 1794916959}
+  - {fileID: 1405310455}
+  - {fileID: 1713314653}
 --- !u!1001 &393715602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1553,11 +1544,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1949840196561441579, guid: dd8531eb516f95e40bce6dc3c0ba4525, type: 3}
   m_PrefabInstance: {fileID: 640911998}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &681075694 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cba9e91351d00994296d4f7f5f24880f, type: 3}
-  m_PrefabInstance: {fileID: 900048499}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &732250601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,11 +1633,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732250601}
   m_Mesh: {fileID: 2493924234637063042, guid: 95cac277c5a04ef43add167566755e63, type: 3}
---- !u!4 &748428359 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3201730938174173172, guid: dd8531eb516f95e40bce6dc3c0ba4525, type: 3}
-  m_PrefabInstance: {fileID: 640911998}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &793835525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4611,6 +4592,7 @@ GameObject:
   - component: {fileID: 1762546712}
   - component: {fileID: 1762546715}
   - component: {fileID: 1762546716}
+  - component: {fileID: 1762546717}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4685,13 +4667,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762546711}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.13396081, y: 0.41797635, z: -0.062466986, w: -0.8963527}
-  m_LocalPosition: {x: 3.105, y: 3.442, z: -4.898}
+  m_LocalRotation: {x: -0.14452663, y: 0.37797216, z: -0.05986492, w: -0.912505}
+  m_LocalPosition: {x: 3.207, y: 3.21, z: -5.098}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 17, y: 310, z: 0}
+  m_LocalEulerAnglesHint: {x: 18, y: 315, z: 0}
 --- !u!114 &1762546715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4755,7 +4737,30 @@ MonoBehaviour:
   forwardBackMin: -5
   forwardBackMax: 5
   zoomMin: 1
-  zoomMax: 4
+  zoomMax: 6
+--- !u!114 &1762546717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762546711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5b33480dd6f9d4a8bd936948180d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::finalVerCamera
+  pos:
+  - {x: 3.207, y: 3.21, z: -5.098}
+  - {x: -3.464, y: 3.21, z: -5.338}
+  - {x: -4.259, y: 3.21, z: 3.255}
+  - {x: 3.39, y: 3.21, z: 2.86}
+  rot:
+  - {x: 18, y: 315, z: 0}
+  - {x: 18, y: 400, z: 0}
+  - {x: 18, y: 135, z: 0}
+  - {x: 18, y: 220, z: 0}
+  speed: 0.5
 --- !u!1 &1772048760
 GameObject:
   m_ObjectHideFlags: 0

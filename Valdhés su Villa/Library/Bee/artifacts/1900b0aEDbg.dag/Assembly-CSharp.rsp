@@ -440,10 +440,11 @@
 "Assets/Scenes/Scripts/CameraControl.cs"
 "Assets/Scenes/Scripts/CameraTest1.cs"
 "Assets/Scenes/Scripts/CameraZOOMscript.cs"
+"Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/finalVerCamera.cs"
+"Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/ObjectWall.cs"
+"Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/WallController.cs"
 "Assets/Scenes/Scripts/ItemUse.cs"
-"Assets/Scenes/Scripts/ObjectWall.cs"
 "Assets/Scenes/Scripts/UniversalRoomController.cs"
-"Assets/Scenes/Scripts/WallController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WallController : MonoBehaviour
@@ -6,10 +7,13 @@ public class WallController : MonoBehaviour
 {
     public Transform[] walls = new Transform[4]; // Создание 4-х стен
 
+    public List <Transform>[] wallObjects = new List <Transform>[4]; // Создание листа, для задачи объектов, принадлежащих определённой стене (будет двигаться вместе с ней)
+
     public float moveTime = 0.5f;
 
     private int currentView = 0;
     private bool Move = false;
+
     private Vector3 hiddenPos = new Vector3(0, 100f, 0);
 
     private int[,] views = 
@@ -19,6 +23,16 @@ public class WallController : MonoBehaviour
         {2, 3, 0, 1},
         {2, 1, 0, 3}
     };
+
+    public void AddObject(Transform obj, int wallIndex)
+    {
+
+        if (wallIndex >= 0 && wallIndex < 4)
+            wallObjects[wallIndex].Add(obj);
+
+    }
+
+
 
     void Start()
 
