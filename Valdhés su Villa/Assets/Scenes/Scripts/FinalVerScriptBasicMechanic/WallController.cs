@@ -16,12 +16,14 @@ public class WallController : MonoBehaviour
 
     private Vector3 hiddenPos = new Vector3(0, 100f, 0);
 
+    private Vector3[] wStartPos = new Vector3[4];
+
     private int[,] views = 
     {
-        {0, 1, 2, 3},
+        {0, 1, 3, 2}, // 0 - North, 1 - West, 2 - South, 3 - East
         {0, 3, 1, 2},
         {2, 3, 0, 1},
-        {2, 1, 0, 3}
+        {2, 1, 3, 0}
     };
 
     public void AddObject(Transform obj, int wallIndex)
@@ -33,10 +35,17 @@ public class WallController : MonoBehaviour
     }
 
 
-
     void Start()
+    { 
+        for(int i = 0; i < 4; i++)
+        
+        {
+            wallObjects[i] = new List <Transform> ();
 
-    {
+            if(walls[i] != null)
+                wStartPos[i] = walls[i].position;
+        }
+
         Walls(0);
     }
 
@@ -67,6 +76,16 @@ public class WallController : MonoBehaviour
     {
 
         if (view < 0 || view > 3 || Move) return;
+
+        if (Move)
+
+        {
+
+            StopAllCoroutines();
+            Move = false;
+
+        }
+
         StartCoroutine(MoveWalls(view));
     }
 
@@ -86,18 +105,19 @@ public class WallController : MonoBehaviour
         {
             float t = time / moveTime;
 
-            if (walls[hide1] != null)
-                walls[hide1].position = Vector3.Lerp(walls[hide1].position, hiddenPos, t);
-            if (walls[hide2] != null)
-                walls[hide2].position = Vector3.Lerp(walls[hide2].position, hiddenPos, t);
-            if (walls[show1] != null)
-                walls[show1].position = Vector3.Lerp(walls[show1].position, Vector3.zero, t);
-            if (walls[show2] != null)
-                walls[show2].position = Vector3.Lerp(walls[show2].position, Vector3.zero, t);
+            walls[hide1].position = Vector3.Lerp(walls[hide1].position, hiddenPos, t);
+            walls[hide2].position = Vector3.Lerp(walls[hide2].position, hiddenPos, t);
+            walls[show1].position = Vector3.Lerp(walls[show1].position, wStartPos[show1], t);
+            walls[show2].position = Vector3.Lerp(walls[show2].position, wStartPos[show2], t);
 
             time += Time.deltaTime;
             yield return null;
         }
+
+        walls[hide1].position = hiddenPos;
+        walls[hide2].position = hiddenPos;
+        walls[show1].position = wStartPos[show1];
+        walls[show2].position = wStartPos[show2];
 
         currentView = newView;
         Move = false;
