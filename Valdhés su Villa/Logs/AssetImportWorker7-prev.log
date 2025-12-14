@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME" at "2025-12-13T09:32:00.4344023Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME" at "2025-12-14T10:40:13.1323828Z"
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 16116 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-13T09:32:00Z
+Date: 2025-12-14T10:40:13Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-61230
+55375
 -licensingIpc
 LicenseClient-HOME
 -job-worker-count
@@ -65,26 +65,26 @@ C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15348]  Target information:
+Player connection [21996]  Target information:
 
-Player connection [15348]  * "[IP] 192.168.0.65 [Port] 0 [Flags] 2 [Guid] 1622636066 [EditorId] 1622636066 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MOMKQ24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21996]  * "[IP] 192.168.0.65 [Port] 0 [Flags] 2 [Guid] 2793971991 [EditorId] 2793971991 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MOMKQ24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15348] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21996] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21996] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15320, path: "C:/юнити/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2024, path: "C:/юнити/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              262d362f536a4729972332ca0d4dd5fc
-  Correlation Id:          c6f11f3c2366f4163499aa8ce56d00cd
-  External correlation Id: 2708623207866625090
+  Session Id:              6dc7de4f1c284474b28535c1a7f80383
+  Correlation Id:          0a1fab51d25f0c83ef44513c723fc9eb
+  External correlation Id: 5191327272468824549
   Machine Id:              p2zqx2RjvcmlaFMCS3B3Azs/qVA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HOME" (connect: 0.00s, validation: 0.01s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME-notifications" at "2025-12-13T09:32:00.4814346Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HOME" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME-notifications" at "2025-12-14T10:40:13.1803882Z"
 [Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -109,43 +109,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001351 seconds.
-- Loaded All Assemblies, in  0.371 seconds
+Registered in 0.001259 seconds.
+- Loaded All Assemblies, in  0.342 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.333 seconds
-Domain Reload Profiling: 703ms
-	BeginReloadAssembly (131ms)
+Domain Reload Profiling: 674ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (129ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (131ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (333ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (283ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
+			InitializePlatformSupportModulesInManaged (46ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -160,21 +160,21 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.242 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.255 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.328 seconds
-Domain Reload Profiling: 569ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.293 seconds
+Domain Reload Profiling: 547ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
 	LoadAllAssembliesAndSetupDomain (7ms)
 		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
@@ -183,16 +183,16 @@ Domain Reload Profiling: 569ms
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (329ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (231ms)
+		SetupLoadedEditorAssemblies (210ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -213,12 +213,1019 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 second
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6114 unused Assets / (6.8 MB). Loaded Objects now: 6719.
-Memory consumption went from 121.2 MB to 114.3 MB.
-Total: 9.764700 ms (FindLiveObjects: 0.525500 ms CreateObjectMapping: 0.457400 ms MarkObjects: 5.143100 ms  DeleteObjects: 3.635200 ms)
+Unloading 6116 unused Assets / (7.3 MB). Loaded Objects now: 6722.
+Memory consumption went from 121.3 MB to 114.0 MB.
+Total: 12.191100 ms (FindLiveObjects: 0.947700 ms CreateObjectMapping: 0.959900 ms MarkObjects: 6.021300 ms  DeleteObjects: 4.257500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10073.250510 seconds.
+  path: Assets/Объекты
+  artifactKey: Guid(92ea4112ac56f174e89134e2e06a1fb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Объекты using Guid(92ea4112ac56f174e89134e2e06a1fb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6d80fd857c933dc20072e898dae3659') in 0.0792519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Объекты/5/model.obj
+  artifactKey: Guid(16a926866daddeb4aae68eb7626b4f1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Объекты/5/model.obj using Guid(16a926866daddeb4aae68eb7626b4f1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21573ce818c8cb85432af0c98b32ade3') in 0.1408953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 981.287326 seconds.
+  path: Assets/Часы/3/RGB_bcd70c33096c43839dec580b05f425ef_tray_diff.png
+  artifactKey: Guid(82c30431dc8861e4f84e0ffedd09266d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_bcd70c33096c43839dec580b05f425ef_tray_diff.png using Guid(82c30431dc8861e4f84e0ffedd09266d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23bdb8751f0fd46d01c92f43e8d03f75') in 0.058179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Часы/12/RGB_65a2a751d4ed40b9a948b30e36db6891_watchbraceletbox01_metal_Mat_Diffuse.png
+  artifactKey: Guid(ab190e2536a7854498fa4cccc64ee460) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_65a2a751d4ed40b9a948b30e36db6891_watchbraceletbox01_metal_Mat_Diffuse.png using Guid(ab190e2536a7854498fa4cccc64ee460) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca7e5d950a0f4596b2d7fa24d9070601') in 0.0435521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Часы/9/RGB_072f975a132749e8b16e0579f1ca7ab8_Clock_BaseColor.png
+  artifactKey: Guid(9be24cebe3d290d4aa8a5a2eccbf3379) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/9/RGB_072f975a132749e8b16e0579f1ca7ab8_Clock_BaseColor.png using Guid(9be24cebe3d290d4aa8a5a2eccbf3379) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5493c1f6e501abbf4213a902d7f04715') in 0.0347325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Часы/0/R_f9992412053f45759ca1ffadc5baf8bb_TEX_SFT_FancyCoffeeTable_Main_metallic.png
+  artifactKey: Guid(ad3bd3c5b7c6df34999c5d117e6ad946) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/R_f9992412053f45759ca1ffadc5baf8bb_TEX_SFT_FancyCoffeeTable_Main_metallic.png using Guid(ad3bd3c5b7c6df34999c5d117e6ad946) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b96bc21d2dc63e08369126afb43b871') in 0.0290766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Часы/8/RGB_44d6a81e23304265b1b014a75777c610_Top_Typewriter_Mat_Base_Color.png
+  artifactKey: Guid(da27f643bb3967a4fabd0cfcbfbe9673) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/RGB_44d6a81e23304265b1b014a75777c610_Top_Typewriter_Mat_Base_Color.png using Guid(da27f643bb3967a4fabd0cfcbfbe9673) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53f419a524b3ea4a7039278f6055eb3e') in 0.0308626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Часы/6/N_443df1434f3c4cc4a54e8aa2d4df1a78_T_gothic_longcase_clock_N.png
+  artifactKey: Guid(59a0e3d7e0c7e0f4e8650038100bb6e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/6/N_443df1434f3c4cc4a54e8aa2d4df1a78_T_gothic_longcase_clock_N.png using Guid(59a0e3d7e0c7e0f4e8650038100bb6e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0da54c3a7a12f6823ac8be4fd01f077d') in 0.0373929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Часы/7/R_a949084f500e4c1c9cd6d089526c4f67_mat_clock_AO.png
+  artifactKey: Guid(25744f1c48ced5c40972ad6955ef9a9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/7/R_a949084f500e4c1c9cd6d089526c4f67_mat_clock_AO.png using Guid(25744f1c48ced5c40972ad6955ef9a9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0975addb9c7a8befcc4d86209e501957') in 0.0290788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Часы/1/RGB_bccd1a48f4c04f8a8f114a42c7254c60_PortaGioie_diffuse.png
+  artifactKey: Guid(8220533b911d2b142a45d4cf8795efa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/1/RGB_bccd1a48f4c04f8a8f114a42c7254c60_PortaGioie_diffuse.png using Guid(8220533b911d2b142a45d4cf8795efa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1095574ce02c58b6e704b0755e5d807e') in 0.0329522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Часы/1/model.mtl
+  artifactKey: Guid(a3eb31cc28099d7449d3cd105701c79b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/1/model.mtl using Guid(a3eb31cc28099d7449d3cd105701c79b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f78a505729c795ec5b18a25a8324ea4f') in 0.0194207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Часы/3/RGB_daaa4a729987404b88c2553dd404d038_SwissPanini-Main.png
+  artifactKey: Guid(c67652fa54926b34591d67b81b1f743b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_daaa4a729987404b88c2553dd404d038_SwissPanini-Main.png using Guid(c67652fa54926b34591d67b81b1f743b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7f31190220be74d28c58ab54b0de479') in 0.0312221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Часы/14/model.g3d
+  artifactKey: Guid(0989032152a358c4d843f839fe9c44df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/14/model.g3d using Guid(0989032152a358c4d843f839fe9c44df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45d7fa715f6c06f7a5714f43a861398f') in 0.01851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Часы/10/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(bc2b44917bad909498b190218597956f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/10/How to Convert (Obj Fbx...).txt using Guid(bc2b44917bad909498b190218597956f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8619f0b7324ae6008f5766a8368e4bc5') in 0.0226913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Часы/11/R_4daecbdcf3754e2d89ad277c83fbf3b5_NixieMat_Metallic.png
+  artifactKey: Guid(dddd028bfe3bee645ac12df8c61760bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/R_4daecbdcf3754e2d89ad277c83fbf3b5_NixieMat_Metallic.png using Guid(dddd028bfe3bee645ac12df8c61760bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab67244e75554d6da9c548f6d173c8e0') in 0.0391027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Часы/8/N_a44491e7c9d8416798fa93310c39ac72_Main_Body_Mat_Normal_DirectX.png
+  artifactKey: Guid(150a47aa0985be8488842cdb673eb7b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/N_a44491e7c9d8416798fa93310c39ac72_Main_Body_Mat_Normal_DirectX.png using Guid(150a47aa0985be8488842cdb673eb7b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c3f6063840124a1e9089347d8118a72') in 0.0300385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Часы/12/R_0e6c84660dd4438c876b7d32fb952947_watchbraceletbox01_bracelet_Mat_Glossiness.png
+  artifactKey: Guid(3efcf858a970bc7498746903caae2f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/R_0e6c84660dd4438c876b7d32fb952947_watchbraceletbox01_bracelet_Mat_Glossiness.png using Guid(3efcf858a970bc7498746903caae2f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fd81d5d3dd574e6faddf989a80b19ff') in 0.0309702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Часы/4/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(6d96087a6da89e74b85714a41d8213a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/4/How to Convert (Obj Fbx...).txt using Guid(6d96087a6da89e74b85714a41d8213a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96d8fd866288ededa82c94b374d0f488') in 0.0235745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Часы/10/model.g3d
+  artifactKey: Guid(0af25e1722d1f5743b421f8dddf095fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/10/model.g3d using Guid(0af25e1722d1f5743b421f8dddf095fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a17f5df0476047550eeaf51a8a1b1dc5') in 0.0199929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Часы/8/model.obj
+  artifactKey: Guid(cef0c7870efc34a44b355beaf422fa7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/model.obj using Guid(cef0c7870efc34a44b355beaf422fa7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da7bfc06f413eaf0cc4224dfe44bec64') in 0.0380848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Часы/5/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(bec754eddd008ad408dd5ed72a087df8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/How to Convert (Obj Fbx...).txt using Guid(bec754eddd008ad408dd5ed72a087df8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2170af240be59bc080eea0d1bd2ba0b7') in 0.0227668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Часы/3/RGB_7c8d70ed09e14b438b32ab2217096ae6_Mexican_Baked_Eggs_Diffuse.png
+  artifactKey: Guid(2263790c1e54ef34094165d20c40a749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_7c8d70ed09e14b438b32ab2217096ae6_Mexican_Baked_Eggs_Diffuse.png using Guid(2263790c1e54ef34094165d20c40a749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd0485eea5420062a943210c52c21272') in 0.038061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Часы/3/RGB_a7edf48facb248ba9261f3330ea75bca_homemade_card.png
+  artifactKey: Guid(bb7981c40c58f394387ade699c00ba7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_a7edf48facb248ba9261f3330ea75bca_homemade_card.png using Guid(bb7981c40c58f394387ade699c00ba7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ea390b70b4ad6c4318e5ce7c65a9b0b') in 0.0338859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Часы/5/R_2c7cfc99963c46adae9896fef0033545_grandfather_clock_Mat_AO.png
+  artifactKey: Guid(3494448d1d6789642af6bdfd8c9a7f93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/R_2c7cfc99963c46adae9896fef0033545_grandfather_clock_Mat_AO.png using Guid(3494448d1d6789642af6bdfd8c9a7f93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d7f5f30ef820fbe399bb2ce812a24cc') in 0.0378147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Часы/12
+  artifactKey: Guid(417f3c344be44aa499ad2c29d56dbc1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12 using Guid(417f3c344be44aa499ad2c29d56dbc1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5125e3276ccf850082b128140916341') in 0.0210629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Часы/13/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(ff955e9ee15cc3f458d554eabe936fdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/How to Convert (Obj Fbx...).txt using Guid(ff955e9ee15cc3f458d554eabe936fdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bc8cb10d9ce96e26a78151c01beeef1') in 0.0203786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Часы/12/RGB_9a8a9caf9f2e4a53a5bddab827d0fbec_watchbraceletbox01_bracelet_Mat_Specular.png
+  artifactKey: Guid(de6f565b667939d4c903c8f524ab9541) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_9a8a9caf9f2e4a53a5bddab827d0fbec_watchbraceletbox01_bracelet_Mat_Specular.png using Guid(de6f565b667939d4c903c8f524ab9541) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73de8ac6252cda38efc6a35fddf92c3d') in 0.0314489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Часы/3/RGB_05c374173699425bb9aed42061e39338_ground-chicken-burgers-2-720x1080.png
+  artifactKey: Guid(9cfa5c17dfc706b4d858481d41cae1c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_05c374173699425bb9aed42061e39338_ground-chicken-burgers-2-720x1080.png using Guid(9cfa5c17dfc706b4d858481d41cae1c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '603f145db2474a79193fc7853b058892') in 0.0284939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Часы/2/RGB_75fcb590039d482bb62438212083d6ec_jewelrystands_gold_Mat_Diffuse.png
+  artifactKey: Guid(575c9fd536a3cbd46a0bd4f1864c0639) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/2/RGB_75fcb590039d482bb62438212083d6ec_jewelrystands_gold_Mat_Diffuse.png using Guid(575c9fd536a3cbd46a0bd4f1864c0639) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8a403dca96c6ad9be702cee64f5ffb9') in 0.0345941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Часы/11/A_f4119b5625364fbc91bc6c51263f9a1c_NixieMat_Diffuse_Op.tga.png
+  artifactKey: Guid(d806a38b180b50d48ab8c9e2fe1c49fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/A_f4119b5625364fbc91bc6c51263f9a1c_NixieMat_Diffuse_Op.tga.png using Guid(d806a38b180b50d48ab8c9e2fe1c49fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63418d0f7cf36c53a1ed6170498a5f9e') in 0.0350581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Часы/4/R_0b90801fb71041de964f1357d84979a1_ShowcaseNormal.png
+  artifactKey: Guid(09b8b27e6df778e4d926020a475742bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/4/R_0b90801fb71041de964f1357d84979a1_ShowcaseNormal.png using Guid(09b8b27e6df778e4d926020a475742bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41ee71dcfeaff224647f2564f959c203') in 0.0371195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Часы/8/R_3b5a1c2dd1b444f2a52e6338b50402ec_Top_Typewriter_Mat_Metallic.png
+  artifactKey: Guid(fb723e16b759c2249bb0d1789c8cd4b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/R_3b5a1c2dd1b444f2a52e6338b50402ec_Top_Typewriter_Mat_Metallic.png using Guid(fb723e16b759c2249bb0d1789c8cd4b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95e3751711c2b3d41758223045e786a8') in 0.0363535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Часы/2/model.obj
+  artifactKey: Guid(eafa0eb7308806b45bda044e7f599ec8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/2/model.obj using Guid(eafa0eb7308806b45bda044e7f599ec8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82bea7d1775399b22225155d51c447ce') in 0.0676643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Часы/11/N_89a416e56869424e85d2a72aa290ae9b_NixieMat_Normal_OpenGL.png
+  artifactKey: Guid(493a936409acbdb418179b4f6c4891b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/N_89a416e56869424e85d2a72aa290ae9b_NixieMat_Normal_OpenGL.png using Guid(493a936409acbdb418179b4f6c4891b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31f2da8bcaf2bd29b7b913f02f9510d5') in 0.0363783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Часы/13/R_030ca44b79204a0e8f1494c60f0dc48e_Watch_Roughness_02.png
+  artifactKey: Guid(271114a32c55dbf4cac6c89add0fb339) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/R_030ca44b79204a0e8f1494c60f0dc48e_Watch_Roughness_02.png using Guid(271114a32c55dbf4cac6c89add0fb339) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b66afbe8cb9814a5ea7cb09b4e5d4d2') in 0.0340069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Часы/0/R_08134303c8c2424fb5a7de5f02ebb5cc_TEX_SFT_FancyCoffeeTable_Brace_roughness.png
+  artifactKey: Guid(41288d9752fc42641bb4e1d67ac13ba5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/R_08134303c8c2424fb5a7de5f02ebb5cc_TEX_SFT_FancyCoffeeTable_Brace_roughness.png using Guid(41288d9752fc42641bb4e1d67ac13ba5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57b561a80507d1799a7e88ad9ef8dac1') in 0.0353144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Часы/3/RGB_5159a40f02be4d628ac56b9bae173a6f_med_veg_panini_card.png
+  artifactKey: Guid(b062fd92d0efaf442b2da4be48306d30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_5159a40f02be4d628ac56b9bae173a6f_med_veg_panini_card.png using Guid(b062fd92d0efaf442b2da4be48306d30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3857a0d8b6b28cc72b3427c0c691f060') in 0.0309034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Часы/3/RGB_b98a0efe982142d0a82bded4b212720e_cheese_salad_card.png
+  artifactKey: Guid(6df45ae03b8fbf840961076cb206dd1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_b98a0efe982142d0a82bded4b212720e_cheese_salad_card.png using Guid(6df45ae03b8fbf840961076cb206dd1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b40104959cf61b61b6a04438a48d092a') in 0.0323794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Часы/13
+  artifactKey: Guid(3e22e61e1d58cdf4aa74992e56f10cf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13 using Guid(3e22e61e1d58cdf4aa74992e56f10cf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fc3b7cfbb07447dde963c719925f317') in 0.0242259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Часы/8/R_b031fba1fa064f6ba0b9e2d1693e1332_Top_Typewriter_Mat_Roughness.png
+  artifactKey: Guid(5f87e19195c4774449d1f800cd4888bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/R_b031fba1fa064f6ba0b9e2d1693e1332_Top_Typewriter_Mat_Roughness.png using Guid(5f87e19195c4774449d1f800cd4888bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f6c2a079bbc18d2a39f5257896b3283') in 0.0372285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Часы/3/RGB_ec3a872e2e044c1ea1f421ba9abeb1fd_tuna_pattie_card.png
+  artifactKey: Guid(fbba71027ba6e10489d6be5055cc2e8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_ec3a872e2e044c1ea1f421ba9abeb1fd_tuna_pattie_card.png using Guid(fbba71027ba6e10489d6be5055cc2e8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '154ffb62c2304ae54a6a77ebffc50a65') in 0.033757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Часы/5/A_50a6bfbe6d02464fb4e56642904c4648_grandfather_clock_Mat_Opacity.png
+  artifactKey: Guid(737fac6ae67fed04aa146528952a1d0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/A_50a6bfbe6d02464fb4e56642904c4648_grandfather_clock_Mat_Opacity.png using Guid(737fac6ae67fed04aa146528952a1d0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40b503e134ab2e9915f2f319f7c1d566') in 0.0334887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Часы/10
+  artifactKey: Guid(4b4a489f1a61ed14ba0b1ec816fd7d74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/10 using Guid(4b4a489f1a61ed14ba0b1ec816fd7d74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8227b05387015ec429e5ba489f2e9d4') in 0.0233769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Часы/6/R_73402db9515c42738e8aa9bb93928065_T_gothic_longcase_clock_tools_MT.png
+  artifactKey: Guid(d9e04fc64b483c442862fe9a501f6347) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/6/R_73402db9515c42738e8aa9bb93928065_T_gothic_longcase_clock_tools_MT.png using Guid(d9e04fc64b483c442862fe9a501f6347) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65b3d724baf44e56d16d302ee43f45cc') in 0.0351393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Часы/8/R_6abf296555e94b80881c24113de40fdf_Main_Body_Mat_Mixed_AO.png
+  artifactKey: Guid(e93a08e2d1bbcfe46b09f074469fa01c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/R_6abf296555e94b80881c24113de40fdf_Main_Body_Mat_Mixed_AO.png using Guid(e93a08e2d1bbcfe46b09f074469fa01c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea806960d8535d8e4bc3c85ef65c3920') in 0.0312296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Часы/11/R_aa784b65233a4684b4b48ab11020464d_NixieMat_Roughness.png
+  artifactKey: Guid(ec4e63ccd8a9f2941a2115af5b0ef926) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/R_aa784b65233a4684b4b48ab11020464d_NixieMat_Roughness.png using Guid(ec4e63ccd8a9f2941a2115af5b0ef926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '299a95091ddd59f114ea19f65b57d24d') in 0.0340453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Часы/3/RGB_dd1e06f8bf424de1b31768b8a1042351_banana_coconut_card.png
+  artifactKey: Guid(1a710856a9d192b41a04b7718fd69eea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_dd1e06f8bf424de1b31768b8a1042351_banana_coconut_card.png using Guid(1a710856a9d192b41a04b7718fd69eea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bdbfb0d454f03fb6f2b7d94136a844c') in 0.0318378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Часы/12/RGB_f80052ec3b1b438da9156f40a6d61eaf_watchbraceletbox01_box_Mat_Specular.png
+  artifactKey: Guid(9b1e1fa0c7b70c343a290f51f6c19649) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_f80052ec3b1b438da9156f40a6d61eaf_watchbraceletbox01_box_Mat_Specular.png using Guid(9b1e1fa0c7b70c343a290f51f6c19649) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '750e546dc1a5c47255cf77a33f4472d0') in 0.0392048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Часы/7/thumbnail.jpg
+  artifactKey: Guid(c9162e982249c454d9fc0f8561e19495) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/7/thumbnail.jpg using Guid(c9162e982249c454d9fc0f8561e19495) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86f18cf44fc33f214aa46a4615d95b4a') in 0.0312699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Часы/0/model.obj
+  artifactKey: Guid(955a1ed9dae915a489d5a5579ff8e746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/model.obj using Guid(955a1ed9dae915a489d5a5579ff8e746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfe6d03f0288ea3888ca6143250241ff') in 0.031709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Часы/0/N_0b25811e7aa345bf8b6c431297c8db19_TEX_SFT_FancyCoffeeTable_Brace_normal.png
+  artifactKey: Guid(16f832d34a9035642af1f7fdec6ecac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/N_0b25811e7aa345bf8b6c431297c8db19_TEX_SFT_FancyCoffeeTable_Brace_normal.png using Guid(16f832d34a9035642af1f7fdec6ecac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fef7f5ad1226ca098e33da16388279a7') in 0.0323965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Часы/4
+  artifactKey: Guid(fba50b4634bb1b14092bc8ff95a485ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/4 using Guid(fba50b4634bb1b14092bc8ff95a485ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e2d04d919900b21c3d50aa532e4dd7f') in 0.0167574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Часы/11
+  artifactKey: Guid(42b7bb9ec74aec74cba095f98bd4fced) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11 using Guid(42b7bb9ec74aec74cba095f98bd4fced) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2cb99cb74c549fe1dade3241868a26e') in 0.0221407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Часы/12/R_4dc3eba9944a4216aad88a8a94e854a1_watchbraceletbox01_metal_Mat_Glossiness.png
+  artifactKey: Guid(9a5818e5740a12a49a3cfe2df8ec9556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/R_4dc3eba9944a4216aad88a8a94e854a1_watchbraceletbox01_metal_Mat_Glossiness.png using Guid(9a5818e5740a12a49a3cfe2df8ec9556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efcb1cff8385682d732acd07db9f1ef2') in 0.0365496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Часы/3/N_d89a3cb9ff0e4c3aaaddbf914357a4f3_Mexican_Quinoa_Salad_normal.png
+  artifactKey: Guid(383c672e1a621ea499548bf303ca39ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/N_d89a3cb9ff0e4c3aaaddbf914357a4f3_Mexican_Quinoa_Salad_normal.png using Guid(383c672e1a621ea499548bf303ca39ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2a9ab98afb3c835e5990f91a522104c') in 0.0376679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Часы/12/model.g3d
+  artifactKey: Guid(abe61fc9fa79cbd4c88db646b452a50d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/model.g3d using Guid(abe61fc9fa79cbd4c88db646b452a50d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70bbba2ba69f2db48be9de35001f376b') in 0.0255852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Часы/12/R_b0bf6ac6f5bd41a6981e08fa54abde70_watchbraceletbox01_body_Mat_Glossiness.png
+  artifactKey: Guid(71333c4e511622e438b1253638098e49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/R_b0bf6ac6f5bd41a6981e08fa54abde70_watchbraceletbox01_body_Mat_Glossiness.png using Guid(71333c4e511622e438b1253638098e49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e22bcffe6318c91de3725a376cdfe89') in 0.0347706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Часы/12/N_8b675821397948e6af306a0740e03bd7_watchbraceletbox01_box_Mat_Normal.png
+  artifactKey: Guid(a787285aa532a954fa9436b572884400) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/N_8b675821397948e6af306a0740e03bd7_watchbraceletbox01_box_Mat_Normal.png using Guid(a787285aa532a954fa9436b572884400) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7f548dec7dbd4d9fcfeb3b9fc42f821') in 0.0376224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Часы/12/RGB_48f59936834f477ea1337b887e8bdcef_watchbraceletbox01_body_Mat_Specular.png
+  artifactKey: Guid(38e21e898381bb04483325ef5e944bec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_48f59936834f477ea1337b887e8bdcef_watchbraceletbox01_body_Mat_Specular.png using Guid(38e21e898381bb04483325ef5e944bec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87ac2797194ea87a2dd8b5f1fc0d3d27') in 0.0315324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Часы/2
+  artifactKey: Guid(8c26900ac90fdaa4e94201e8dfdece76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/2 using Guid(8c26900ac90fdaa4e94201e8dfdece76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae296bd6e877add6a9c485610aab342c') in 0.0211168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Часы/3/RGB_392b263aa91f4666bd039bf32cba41b1_acacia_wood.png
+  artifactKey: Guid(fece5625cdfb19640808400f2cb90dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_392b263aa91f4666bd039bf32cba41b1_acacia_wood.png using Guid(fece5625cdfb19640808400f2cb90dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b43c65f56c00c57b8d5f64d5c6386da1') in 0.0320694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Часы/13/N_8bb9998ed3e74e9f83d3683a54fd6b17_Watch_Normal.png
+  artifactKey: Guid(5108fe8385da637479daacd12772a29b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/N_8bb9998ed3e74e9f83d3683a54fd6b17_Watch_Normal.png using Guid(5108fe8385da637479daacd12772a29b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fbc6922b35d27f6cfa89a2a79429877') in 0.0354016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Часы/6/RGB_136c3b48abb7431cba23dcd142571f94_T_gothic_longcase_clock_glass_BC.png
+  artifactKey: Guid(e8b435bb1617dad40aecd271624af2ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/6/RGB_136c3b48abb7431cba23dcd142571f94_T_gothic_longcase_clock_glass_BC.png using Guid(e8b435bb1617dad40aecd271624af2ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a394b85bb9aea4131f97244015cd089') in 0.0335411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Часы/12/RGB_3693cd7b8028402193f1b9f493fa9a3e_watchbraceletbox01_pillow_Mat_Diffuse.png
+  artifactKey: Guid(6519bfde72eb2d548be0d4edcee3c178) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_3693cd7b8028402193f1b9f493fa9a3e_watchbraceletbox01_pillow_Mat_Diffuse.png using Guid(6519bfde72eb2d548be0d4edcee3c178) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a9996970a2568de10808b013d4bd01a') in 0.0341002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Часы/4/thumbnail.jpg
+  artifactKey: Guid(f88e1880300917743941a0c4ebb96215) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/4/thumbnail.jpg using Guid(f88e1880300917743941a0c4ebb96215) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8deeb974ed9f119832d373a6b3a57294') in 0.0317677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Часы/12/thumbnail.jpg
+  artifactKey: Guid(6277534f264586345b3be215f482f7ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/thumbnail.jpg using Guid(6277534f264586345b3be215f482f7ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'deef4e86184993ba72a47443cd4ba5cb') in 0.0333212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Часы/0/R_b8e575adff774aeb8df8057bdef3d5f4_TEX_SFT_FancyCoffeeTable_Glass_roughness.png
+  artifactKey: Guid(bd8a12ccbdef2d943b9564291a4320a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/R_b8e575adff774aeb8df8057bdef3d5f4_TEX_SFT_FancyCoffeeTable_Glass_roughness.png using Guid(bd8a12ccbdef2d943b9564291a4320a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc50a0132b0b086151c3392d12e04ace') in 0.0330751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Часы/3/RGB_d1f246e05f444fffad14749b389bb7f2_Mexican_Quinoa_Salad_diffuse.png
+  artifactKey: Guid(8395c70846ad7ed4cab3d9ada4276301) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_d1f246e05f444fffad14749b389bb7f2_Mexican_Quinoa_Salad_diffuse.png using Guid(8395c70846ad7ed4cab3d9ada4276301) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19f88bcccdb14b285384e06985933c69') in 0.0342834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Часы/14/model.obj
+  artifactKey: Guid(5cd79dd66353a514283cfb4676b4288a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/14/model.obj using Guid(5cd79dd66353a514283cfb4676b4288a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c7ee301e67372f9fd666f688d4d43de') in 0.0316604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Часы/4/R_463bab5917004cc086bdf5dff28f8ffa_ShowcaseRoughness-channels-G.png
+  artifactKey: Guid(e5b0b4c065d3db14b8752b7b06fd944d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/4/R_463bab5917004cc086bdf5dff28f8ffa_ShowcaseRoughness-channels-G.png using Guid(e5b0b4c065d3db14b8752b7b06fd944d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe4928f0f3db8d63fd40e0698c821353') in 0.0319463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Часы/6/N_26b311c9a1f44a46b4b4d4ad51baf6b2_T_gothic_longcase_clock_tools_N.png
+  artifactKey: Guid(c7d066271213a8e45a2a513e6801e7dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/6/N_26b311c9a1f44a46b4b4d4ad51baf6b2_T_gothic_longcase_clock_tools_N.png using Guid(c7d066271213a8e45a2a513e6801e7dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54c44d72118b75a8ed6c4d91d9f22726') in 0.0358696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Часы/0/R_56d34ed5ec9a4165a097e13156a747cb_TEX_SFT_FancyCoffeeTable_Brace_metallic.png
+  artifactKey: Guid(c81b454171a10fb409c0db11da5f62f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/R_56d34ed5ec9a4165a097e13156a747cb_TEX_SFT_FancyCoffeeTable_Brace_metallic.png using Guid(c81b454171a10fb409c0db11da5f62f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28bfc7bee2ffb9ed2f97ea5e9d8a98b1') in 0.0291225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Часы/5/model.mtl
+  artifactKey: Guid(3b69a748275b9014bbf1e3f83c0eefb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/model.mtl using Guid(3b69a748275b9014bbf1e3f83c0eefb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c604abc3d993a351374ee0d6810fdd4f') in 0.0172237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Часы/0/RGB_9ed22d60274446bf80ba32b6656ab742_TEX_SFT_FancyCoffeeTable_Glass_albedo.png
+  artifactKey: Guid(4218f903c2770ca418c92151dfe22919) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/RGB_9ed22d60274446bf80ba32b6656ab742_TEX_SFT_FancyCoffeeTable_Glass_albedo.png using Guid(4218f903c2770ca418c92151dfe22919) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f28e70933b4a342f2bd61bd218534292') in 0.0295102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Часы/8/R_aa128e4bcfef4b6fa4db31893ef8fece_Main_Body_Mat_Metallic.png
+  artifactKey: Guid(297e7b2d76799cd41905ec50a39edaa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/R_aa128e4bcfef4b6fa4db31893ef8fece_Main_Body_Mat_Metallic.png using Guid(297e7b2d76799cd41905ec50a39edaa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd4d132175861588c9d7dd37e7ab7b99') in 0.0314957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Часы/3/N_f450670e784d4333bf259f79acc52096_spinach-and-cheese-croissants_Normal.png
+  artifactKey: Guid(6dccbfb0107d547429ad875b5eb0b08f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/N_f450670e784d4333bf259f79acc52096_spinach-and-cheese-croissants_Normal.png using Guid(6dccbfb0107d547429ad875b5eb0b08f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d89405eee9b812a4d8a4f1a7a8f2981') in 0.0316433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Часы/3
+  artifactKey: Guid(76eb1e2d66510c541b3d1206c4f1a261) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3 using Guid(76eb1e2d66510c541b3d1206c4f1a261) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c8bf1a98847f090ff9a3ea9c4143c86') in 0.0191601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Часы/13/model.mtl
+  artifactKey: Guid(34a8d06a2cef288419af4b426cb80596) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/model.mtl using Guid(34a8d06a2cef288419af4b426cb80596) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b84a5b24d12b54226915fc32cb8b888e') in 0.0186567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Часы/13/model.g3d
+  artifactKey: Guid(9a498393f6eabad47a1d9e501520e2c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/model.g3d using Guid(9a498393f6eabad47a1d9e501520e2c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc6d6159b28e190cbab9bbc380da2f5e') in 0.0192799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Часы/5/RGB_d3a159e9b79d478abba671037ef2eda5_grandfather_clock_Mat_BaseColor.png
+  artifactKey: Guid(20ecdb24aca04a44991af9748e864aaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/RGB_d3a159e9b79d478abba671037ef2eda5_grandfather_clock_Mat_BaseColor.png using Guid(20ecdb24aca04a44991af9748e864aaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e0941ec335cc075e9ec986471cc54e4') in 0.0311596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Часы/11/R_53827d60934443ca9ff9a6b18e4456b7_NixieMat_Mixed_AO.png
+  artifactKey: Guid(4fbb27be9c5bce24484372a2b0263675) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/R_53827d60934443ca9ff9a6b18e4456b7_NixieMat_Mixed_AO.png using Guid(4fbb27be9c5bce24484372a2b0263675) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a554f72be2d2cbb2ad524f0424c8fa2') in 0.0307166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Часы/1
+  artifactKey: Guid(b06ee76f870add64196244fcf5ee9570) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/1 using Guid(b06ee76f870add64196244fcf5ee9570) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3c17caa47d168680c3515dca6c8bc50') in 0.0160623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Часы/5/R_2a3981b6aa5545c590988289312fc987_grandfather_clock_Mat_SpecularLvl.png
+  artifactKey: Guid(f41ff80d99091c648b5ef7303bf85dce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/R_2a3981b6aa5545c590988289312fc987_grandfather_clock_Mat_SpecularLvl.png using Guid(f41ff80d99091c648b5ef7303bf85dce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e221282237aff989c7538d059a35e7f') in 0.0304933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Часы/1/RGB_d90ec232a0a44c73a7b393aa4c68807c_PortaGioie_specular.png
+  artifactKey: Guid(e049e89566135b949b6baab3a0cf0cc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/1/RGB_d90ec232a0a44c73a7b393aa4c68807c_PortaGioie_specular.png using Guid(e049e89566135b949b6baab3a0cf0cc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b2296d2d544b6b7d4a39c8c2cb11534') in 0.0388349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Часы/0/A_69fe6b66df9c4f949a2250c3b04a9873_TEX_SFT_FancyCoffeeTable_Glass_metallic.png
+  artifactKey: Guid(78c3f669ab4f3c741a396e96e727e9e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/A_69fe6b66df9c4f949a2250c3b04a9873_TEX_SFT_FancyCoffeeTable_Glass_metallic.png using Guid(78c3f669ab4f3c741a396e96e727e9e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2bb5589af094c47160bed02679bef37') in 0.0316695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Часы/5
+  artifactKey: Guid(a692d9b277f86b34f9cbcdeb1e3053b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5 using Guid(a692d9b277f86b34f9cbcdeb1e3053b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a43ec3ef4bf039a1f79b8b377fc98412') in 0.017667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Часы/5/R_f234f6947aac4d4e9fe124ff75c06c25_grandfather_clock_Mat_Roughness.png
+  artifactKey: Guid(7d574c3c3458d0d45a85a991b2b022d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/R_f234f6947aac4d4e9fe124ff75c06c25_grandfather_clock_Mat_Roughness.png using Guid(7d574c3c3458d0d45a85a991b2b022d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12f654107ead3cba27855f51faba3eca') in 0.0278032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Часы/12/RGB_39dc74af8f07479f95860e531758af6e_watchbraceletbox01_box_Mat_Diffuse.png
+  artifactKey: Guid(4ee3ead730bb43e47a3215dd1fc94e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_39dc74af8f07479f95860e531758af6e_watchbraceletbox01_box_Mat_Diffuse.png using Guid(4ee3ead730bb43e47a3215dd1fc94e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4342cdf7d5d71faa6998ff0937d6efe') in 0.0409825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Часы/8/N_14ad16782bc64f78b718b71d07c7ee6a_Ink_Mat_Normal_DirectX.png
+  artifactKey: Guid(62f08f2258b69fd4fa395a1fe53f0e66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/N_14ad16782bc64f78b718b71d07c7ee6a_Ink_Mat_Normal_DirectX.png using Guid(62f08f2258b69fd4fa395a1fe53f0e66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4842dd5beb0a204d15d3393834f3826c') in 0.031207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Часы/3/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(859fecbec42c43d43a1691dd2305f8d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/How to Convert (Obj Fbx...).txt using Guid(859fecbec42c43d43a1691dd2305f8d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd85056e232207e08694d87f341137b51') in 0.0235082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Часы/2/RGB_a8b776c5134b4480991e6378c6ae0e8e_jewelrystands_leather_Mat_Diffuse.png
+  artifactKey: Guid(166744bceefb4cc4d939b496ce4100cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/2/RGB_a8b776c5134b4480991e6378c6ae0e8e_jewelrystands_leather_Mat_Diffuse.png using Guid(166744bceefb4cc4d939b496ce4100cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ace260c45e436db83be4d4aa9413f68') in 0.0347632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Часы/5/A_10a4439ba69f4d6f8b9711dfecabe49a_grandfather_clock_glass_Mat_Opacity.png
+  artifactKey: Guid(c614dfca592ad104086a6448119f3f1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/5/A_10a4439ba69f4d6f8b9711dfecabe49a_grandfather_clock_glass_Mat_Opacity.png using Guid(c614dfca592ad104086a6448119f3f1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01d458234616a89a0dbee5dce2ba8912') in 0.0360143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Часы/7/N_d4eb8dd1d4d741da8dacecc302d15676_mat_clock_normal.png
+  artifactKey: Guid(7e03303d9a35c864ea1d3b3be1b95223) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/7/N_d4eb8dd1d4d741da8dacecc302d15676_mat_clock_normal.png using Guid(7e03303d9a35c864ea1d3b3be1b95223) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c47bd476be0fe1f46745219d6646a48b') in 0.0361848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Часы/12/RGB_e754eec722f140b1ae9ff397dea4e786_watchbraceletbox01_glass_Mat_Specular.png
+  artifactKey: Guid(48b8fad670ccd70499251d57820f1b7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/RGB_e754eec722f140b1ae9ff397dea4e786_watchbraceletbox01_glass_Mat_Specular.png using Guid(48b8fad670ccd70499251d57820f1b7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '092894410d68394dbc80a1412093bacc') in 0.0384399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Часы/12/A_56ed48380c414605b0f2aaa6f3ef0fad_watchbraceletbox01_glass_Mat_Refraction.png
+  artifactKey: Guid(43db8ae75ed3bb246b664057b7bac9ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/A_56ed48380c414605b0f2aaa6f3ef0fad_watchbraceletbox01_glass_Mat_Refraction.png using Guid(43db8ae75ed3bb246b664057b7bac9ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33bf694293403b1948b30e6ad5a1e8c9') in 0.0366717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Часы/11/thumbnail.jpg
+  artifactKey: Guid(074cd0d4c3a3d454996ef3358352178a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/thumbnail.jpg using Guid(074cd0d4c3a3d454996ef3358352178a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '654b85b5bcd2b0dce1de812c35cf9b2d') in 0.0375172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Часы/3/N_b09db31c8afd4f258ad974ce9e9593d4_banana_coconut_bread_Normal.png
+  artifactKey: Guid(df397413adff16547a7aab5a1b10f002) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/N_b09db31c8afd4f258ad974ce9e9593d4_banana_coconut_bread_Normal.png using Guid(df397413adff16547a7aab5a1b10f002) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37346b68b8439ba26f2750b00f46b1c2') in 0.0297023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Часы/1/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(bbbd183b82263414fbd5a8601be48b01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/1/How to Convert (Obj Fbx...).txt using Guid(bbbd183b82263414fbd5a8601be48b01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '766c6e667a610b47a8a1949cc6604f3c') in 0.0259136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Часы/6/N_36c73189b1d749c0b13879fe5d484c58_T_gothic_longcase_clock_glass_N.png
+  artifactKey: Guid(aabe7dbf311a8a74ca59f4d3d7e23c84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/6/N_36c73189b1d749c0b13879fe5d484c58_T_gothic_longcase_clock_glass_N.png using Guid(aabe7dbf311a8a74ca59f4d3d7e23c84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '995c99022e10773b2e406653306ccd3a') in 0.0397495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Часы/9/thumbnail.jpg
+  artifactKey: Guid(4683840c0d99022458141a124942c2c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/9/thumbnail.jpg using Guid(4683840c0d99022458141a124942c2c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15967af8dd313e1c35393ce1e9f3c2cf') in 0.0366205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Часы/7/model.mtl
+  artifactKey: Guid(63c48aa3ba4cf17478d9da7fccc6d2ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/7/model.mtl using Guid(63c48aa3ba4cf17478d9da7fccc6d2ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f5b12f7ef741d525ce06c137a4724b3') in 0.0281725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Часы/3/RGB_3f87c740e1db40569c6322c526093bc4_yaourt_cerise_top.png
+  artifactKey: Guid(cab4e63c097e62e468e29e630ec72b79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_3f87c740e1db40569c6322c526093bc4_yaourt_cerise_top.png using Guid(cab4e63c097e62e468e29e630ec72b79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e2e8f2ccae118534b7299c31530bbaf') in 0.042751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Часы/8/N_58c7ada4d3e04ec8b173fdff065137c7_Keys_and_Presses_Mat_Normal_DirectX.png
+  artifactKey: Guid(11603df1f8252ba4c83e81b0e221890e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/N_58c7ada4d3e04ec8b173fdff065137c7_Keys_and_Presses_Mat_Normal_DirectX.png using Guid(11603df1f8252ba4c83e81b0e221890e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d969f75ad6f0a40fba57b96c90c5d53') in 0.0462407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Часы/2/model.mtl
+  artifactKey: Guid(9bf736e63289e7e4596d9b94d0dccea0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/2/model.mtl using Guid(9bf736e63289e7e4596d9b94d0dccea0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faf94f7105b4a7673291fa7f898f5948') in 0.0284253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Часы/11/model.obj
+  artifactKey: Guid(abd456fa2a43ffd4abd36783255dd804) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/model.obj using Guid(abd456fa2a43ffd4abd36783255dd804) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '886f6e844240932c8f6832dd40e336d6') in 0.0408381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Часы/3/RGB_a8af74f7b9e045e790d99d08680562e1_BAKED_MEXICAN_EGGS.png
+  artifactKey: Guid(70df467fba588e849a905ffb7911aea2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_a8af74f7b9e045e790d99d08680562e1_BAKED_MEXICAN_EGGS.png using Guid(70df467fba588e849a905ffb7911aea2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7d5c8e781f7e364850f153abfaf6244') in 0.0404001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Часы/1/R_708409d760634269b0ab37670fea074e_PortaGioie_gloss.png
+  artifactKey: Guid(53ecd9f285672134fb5e66bc3cbf6eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/1/R_708409d760634269b0ab37670fea074e_PortaGioie_gloss.png using Guid(53ecd9f285672134fb5e66bc3cbf6eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '632c80247322e861a2b705477be74717') in 0.035526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Часы
+  artifactKey: Guid(9bfeacf6856abd645bab925f6632e48d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы using Guid(9bfeacf6856abd645bab925f6632e48d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99dd0455fa8cc95c0b272654dab53b26') in 0.0215499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Часы/7/R_f2eba54a6b994d898d2512a7a1090fb6_mat_clock_opacity.png
+  artifactKey: Guid(7b5fe8817ed96c04bb83ab73fc6793bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/7/R_f2eba54a6b994d898d2512a7a1090fb6_mat_clock_opacity.png using Guid(7b5fe8817ed96c04bb83ab73fc6793bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '243a99e8d7835de5dcafad11007a681a') in 0.0343616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Часы/3/RGB_14de3ad8b75b4ae680f69953cb83afad_beef-empanadas-1640021932.png
+  artifactKey: Guid(830e907288b98d441b55960831f3b212) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_14de3ad8b75b4ae680f69953cb83afad_beef-empanadas-1640021932.png using Guid(830e907288b98d441b55960831f3b212) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd03975d15496e53bd2533fe9c2e60891') in 0.0399734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Часы/0/N_6307eb5400554904877b4ab3ac3967c3_TEX_SFT_FancyCoffeeTable_Main_normal.png
+  artifactKey: Guid(8c80c33382832c441a69869695e58149) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/N_6307eb5400554904877b4ab3ac3967c3_TEX_SFT_FancyCoffeeTable_Main_normal.png using Guid(8c80c33382832c441a69869695e58149) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57dc944c16ba1156fa5a63ca6b41326e') in 0.0510341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Часы/7/RGB_15ab48226df4426386d63bcbcf173af3_mat_clock_albedo.png
+  artifactKey: Guid(8c54ab5b60eac81409b17ebd137a3803) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/7/RGB_15ab48226df4426386d63bcbcf173af3_mat_clock_albedo.png using Guid(8c54ab5b60eac81409b17ebd137a3803) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67dcdd96ad411d312bf16d21ba157f26') in 0.0367179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Часы/4/model.obj
+  artifactKey: Guid(e9b3f1173923e5843b6286562cd74758) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/4/model.obj using Guid(e9b3f1173923e5843b6286562cd74758) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6ecc99ffcad794450251245a10d641c') in 0.0453863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Часы/12/N_733a148913804bb9a690826fd4692dbb_watchbraceletbox01_body_Mat_Normal.png
+  artifactKey: Guid(280cfaf760e56704ba928b91eb455666) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/12/N_733a148913804bb9a690826fd4692dbb_watchbraceletbox01_body_Mat_Normal.png using Guid(280cfaf760e56704ba928b91eb455666) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ba119478d3a92a596ef1b336321547f') in 0.0304262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Часы/3/R_10bbfb5381f949019c3c38c879d90bb1_bagles_bread_displace.png
+  artifactKey: Guid(59cfe12fd0da2974ab2fbfd94ebaf17f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/R_10bbfb5381f949019c3c38c879d90bb1_bagles_bread_displace.png using Guid(59cfe12fd0da2974ab2fbfd94ebaf17f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74e98f7aa463c7ccea0327f99028ffb1') in 0.0259076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Часы/0/thumbnail.jpg
+  artifactKey: Guid(c36497dd37fcc4b479145b286ca382c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/0/thumbnail.jpg using Guid(c36497dd37fcc4b479145b286ca382c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5eacd4680091049d400be98f1722a49') in 0.0290558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Часы/3/RGB_7c2896da2e854df3a57e97d7fdb8eefb_yaourt_kiwi.png
+  artifactKey: Guid(bf9ef4d91af6c504180648598dd4b324) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_7c2896da2e854df3a57e97d7fdb8eefb_yaourt_kiwi.png using Guid(bf9ef4d91af6c504180648598dd4b324) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a29f523fc594b5eaf81852f59ab8cef8') in 0.034938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Часы/13/RGB_57b224c49fb34a12bd11b4bad2971beb_Watch_Base_Color.png
+  artifactKey: Guid(c082e664cb0f40e41a8904ee6bef538f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/RGB_57b224c49fb34a12bd11b4bad2971beb_Watch_Base_Color.png using Guid(c082e664cb0f40e41a8904ee6bef538f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19d0096da0ad952e48a8feeee435379b') in 0.0332829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Часы/3/RGB_7aed801590ba43e681f55885d8c8eca1_blt_card.png
+  artifactKey: Guid(51f4e6ba8e3919b44920fe34f391c8d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_7aed801590ba43e681f55885d8c8eca1_blt_card.png using Guid(51f4e6ba8e3919b44920fe34f391c8d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd017a72319b0fb14c5d15bd15263e2b7') in 0.0366523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Часы/11/How to Convert (Obj Fbx...).txt
+  artifactKey: Guid(dda8ad50578d9fa4f817806402d18e2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/11/How to Convert (Obj Fbx...).txt using Guid(dda8ad50578d9fa4f817806402d18e2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6cf8affd4a995359bf383518935b4b3') in 0.0229849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Часы/10/model.obj
+  artifactKey: Guid(824952d246f715a42ba279c9783c9632) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/10/model.obj using Guid(824952d246f715a42ba279c9783c9632) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7a277aecbfad7a59d40888f5ba56b45') in 0.0743674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Часы/3/RGB_7c9f494b2c1247d39e8d79ecacd67a8b_tub_green-leaf-lettucers.png
+  artifactKey: Guid(7697009862233ab419ad096d2eac9c0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_7c9f494b2c1247d39e8d79ecacd67a8b_tub_green-leaf-lettucers.png using Guid(7697009862233ab419ad096d2eac9c0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b675328fcc36c7a3bac325e2a038ea12') in 0.0327005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Часы/3/RGB_ca383485a5d0416ea742e7f9384ec538_spinach-and-cheese-croissants_diffuse.png
+  artifactKey: Guid(39c3e927ed955954fafe6408bcbdc857) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_ca383485a5d0416ea742e7f9384ec538_spinach-and-cheese-croissants_diffuse.png using Guid(39c3e927ed955954fafe6408bcbdc857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10a443c557f5ec6082a3c898d1e1bf6e') in 0.0360319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Часы/3/RGB_c1795a587d9b4134a731d6f28965ce27_yaourt_fraise.png
+  artifactKey: Guid(904209be697a15d479aadca57e0fc4dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/3/RGB_c1795a587d9b4134a731d6f28965ce27_yaourt_fraise.png using Guid(904209be697a15d479aadca57e0fc4dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d48c2c07028f9ea802f5f305e6067d2') in 0.0327241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Часы/8/A_7b7d6a54086d4a67812642b9a3688e58_Keys_and_Presses_Mat_Metallic.png
+  artifactKey: Guid(14c59fdfa95347b40917149fdaf0b217) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/8/A_7b7d6a54086d4a67812642b9a3688e58_Keys_and_Presses_Mat_Metallic.png using Guid(14c59fdfa95347b40917149fdaf0b217) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4f1b1966fa99418d172a57ad3584e88') in 0.035282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.437215 seconds.
+  path: Assets/Часы/0/model.obj
+  artifactKey: Guid(955a1ed9dae915a489d5a5579ff8e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/0/model.obj using Guid(955a1ed9dae915a489d5a5579ff8e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92a446795f3aed9c7ed9eabecccf4b03') in 0.3135828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

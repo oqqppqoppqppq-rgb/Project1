@@ -1,0 +1,375 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME" at "2025-12-14T11:28:07.6440711Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 16116 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-14T11:28:07Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+55375
+-licensingIpc
+LicenseClient-HOME
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
+C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23712]  Target information:
+
+Player connection [23712]  * "[IP] 192.168.0.65 [Port] 0 [Flags] 2 [Guid] 2327644098 [EditorId] 2327644098 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MOMKQ24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2024, path: "C:/юнити/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              d9dd76eb1ed442268d4e85fea641183f
+  Correlation Id:          0a1fab51d25f0c83ef44513c723fc9eb
+  External correlation Id: 1839337667367161234
+  Machine Id:              p2zqx2RjvcmlaFMCS3B3Azs/qVA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HOME" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME-notifications" at "2025-12-14T11:28:07.6842419Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001057 seconds.
+- Loaded All Assemblies, in  0.298 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.289 seconds
+Domain Reload Profiling: 586ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (289ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171542316351-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.199 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 482ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (8ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6116 unused Assets / (6.6 MB). Loaded Objects now: 6722.
+Memory consumption went from 121.3 MB to 114.7 MB.
+Total: 9.469600 ms (FindLiveObjects: 1.173900 ms CreateObjectMapping: 0.837100 ms MarkObjects: 3.870900 ms  DeleteObjects: 3.583500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12943.157813 seconds.
+  path: Assets/Часы/14/R_789f2e136c934897b9234b7c81796006_watch_Roughness.png
+  artifactKey: Guid(10d2187f56e6c8f49ba7186b416a755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/14/R_789f2e136c934897b9234b7c81796006_watch_Roughness.png using Guid(10d2187f56e6c8f49ba7186b416a755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c63d9a42b9099ef79543414ecec795d5') in 0.0957208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.880206 seconds.
+  path: Assets/Часы/7/Materials/RGB_15ab48226df4426386d63bcbcf173af3_mat_clock_albedo.mat
+  artifactKey: Guid(113846e11bfd8b44680ec76ca18aac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/7/Materials/RGB_15ab48226df4426386d63bcbcf173af3_mat_clock_albedo.mat using Guid(113846e11bfd8b44680ec76ca18aac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a000c96a6472204c495a4f3dc3ded75f') in 0.1080995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.385636 seconds.
+  path: Assets/Часы/13/Materials/RGB_57b224c49fb34a12bd11b4bad2971beb_Watch_Base_Color.mat
+  artifactKey: Guid(8ebb3e4a555338d44967fabf9a0cb632) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/13/Materials/RGB_57b224c49fb34a12bd11b4bad2971beb_Watch_Base_Color.mat using Guid(8ebb3e4a555338d44967fabf9a0cb632) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f9f4bdea98174af75dab314347ccf8d') in 0.1082747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 455.084186 seconds.
+  path: Assets/Пианино/N9GPRNXRG56CC8QR24B83Q895.fbx
+  artifactKey: Guid(a8e408377405c9f4cbdb3a0a7a68cc60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Пианино/N9GPRNXRG56CC8QR24B83Q895.fbx using Guid(a8e408377405c9f4cbdb3a0a7a68cc60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3adba5ab74d08c8f331f7e2b5cec2756') in 0.0897532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Пианино/License.txt
+  artifactKey: Guid(7c8acec91fc4bff4589c811971d1f1a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Пианино/License.txt using Guid(7c8acec91fc4bff4589c811971d1f1a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '416cad43cd254c051da084eda6a8dbb5') in 0.0354451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Пианино/Tex_7.jpeg
+  artifactKey: Guid(5af0015d93472644395035d63c373720) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Пианино/Tex_7.jpeg using Guid(5af0015d93472644395035d63c373720) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ebecb0b02e1a26b66f833cb9c81036a') in 0.0573438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Пианино/default-grey.jpg
+  artifactKey: Guid(7e0c63b8087880246ba0da8b2b78bb38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Пианино/default-grey.jpg using Guid(7e0c63b8087880246ba0da8b2b78bb38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7b6a1abdb7b58deca81aca2043098eb') in 0.0294712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.270040 seconds.
+  path: Assets/Пианино/N9GPRNXRG56CC8QR24B83Q895.fbx
+  artifactKey: Guid(a8e408377405c9f4cbdb3a0a7a68cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Пианино/N9GPRNXRG56CC8QR24B83Q895.fbx using Guid(a8e408377405c9f4cbdb3a0a7a68cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30af9cc1f952a81ea0729070536d893d') in 0.1029285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Пианино/Tex_4.jpeg
+  artifactKey: Guid(51a0cbba0d6646e43a595a08ce256b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Пианино/Tex_4.jpeg using Guid(51a0cbba0d6646e43a595a08ce256b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b21283e92678428ee5d6369f2ab867d') in 0.0269706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 501.774577 seconds.
+  path: Assets/Часы/15/model.mtl
+  artifactKey: Guid(88266a27d87ddae4cb8634229464f002) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/15/model.mtl using Guid(88266a27d87ddae4cb8634229464f002) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ef63639d905a06980837cfe373e71fc') in 0.0160637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Часы/15/RGB_f86404e535e44ffa997c70d5726b6559_wall_clock_steampunk_1001_BaseColor.png
+  artifactKey: Guid(29921377ff0b10e4ca602f50f3b198ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/15/RGB_f86404e535e44ffa997c70d5726b6559_wall_clock_steampunk_1001_BaseColor.png using Guid(29921377ff0b10e4ca602f50f3b198ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f562831eaf51819b9120013a9342cee8') in 0.0328872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Часы/15/N_20bc7c3378b447cfbf049d48ea689808_wall_clock_steampunk_1001_Normal.png
+  artifactKey: Guid(6685e51ff50eb974fa4c34419839bcf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/15/N_20bc7c3378b447cfbf049d48ea689808_wall_clock_steampunk_1001_Normal.png using Guid(6685e51ff50eb974fa4c34419839bcf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9076bb2f82e182486c807cea03a81e8d') in 0.0398287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Часы/15/R_015fdc69a3ad4f47a7254e69c4028ccc_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png
+  artifactKey: Guid(485d59d8e12d05044b016c3683b84d98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/15/R_015fdc69a3ad4f47a7254e69c4028ccc_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png using Guid(485d59d8e12d05044b016c3683b84d98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25124b4dfdb08b903f1408003c513c58') in 0.0304552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Часы/15/R_fbca3ee36dfc464682ec453fb88f6a51_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png
+  artifactKey: Guid(76a1d33bffc6a0146b78daf7a25ff933) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/15/R_fbca3ee36dfc464682ec453fb88f6a51_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png using Guid(76a1d33bffc6a0146b78daf7a25ff933) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56bb3c116607758d1b1a5515e811d5b3') in 0.0315189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Часы/15/model.fbx
+  artifactKey: Guid(7b5389438a741114899968cfe2994fcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Часы/15/model.fbx using Guid(7b5389438a741114899968cfe2994fcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6aac5dc8f6f7bc60883dc0c47eb7cb0') in 0.0414097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408854 seconds.
+  path: Assets/Часы/15/model.obj
+  artifactKey: Guid(f317a26480e43424a8423bfd33a5bae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/15/model.obj using Guid(f317a26480e43424a8423bfd33a5bae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f064d8b2c11c17e4439409a1960ef113') in 0.0762157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Часы/15/R_015fdc69a3ad4f47a7254e69c4028ccc_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png
+  artifactKey: Guid(485d59d8e12d05044b016c3683b84d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/15/R_015fdc69a3ad4f47a7254e69c4028ccc_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png using Guid(485d59d8e12d05044b016c3683b84d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d5bc78deb36afbd7a03d204c2ceb15b') in 0.0302811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Часы/15/N_20bc7c3378b447cfbf049d48ea689808_wall_clock_steampunk_1001_Normal.png
+  artifactKey: Guid(6685e51ff50eb974fa4c34419839bcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/15/N_20bc7c3378b447cfbf049d48ea689808_wall_clock_steampunk_1001_Normal.png using Guid(6685e51ff50eb974fa4c34419839bcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cb092c366c1a0839b156c1646450838') in 0.0237786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Часы/15/R_fbca3ee36dfc464682ec453fb88f6a51_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png
+  artifactKey: Guid(76a1d33bffc6a0146b78daf7a25ff933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Часы/15/R_fbca3ee36dfc464682ec453fb88f6a51_wall_clock_steampunk_1001_Metallic_jpg-wall_clock_steampunk_.png using Guid(76a1d33bffc6a0146b78daf7a25ff933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00c1d7cbb4a2af938c4a769ee630108c') in 0.0245503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
