@@ -1,0 +1,7 @@
+newmtl clock
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 32.000000
+map_Kd /home/obrymec/Documents/3d_assets/dev/REALISTIC_VINTAGE_3D_ASSETS_PACK/textures/vintage_grandfather_clock/diffuse.jpg
+map_bump /home/obrymec/Documents/3d_assets/dev/REALISTIC_VINTAGE_3D_ASSETS_PACK/textures/vintage_grandfather_clock/normal.jpg
+

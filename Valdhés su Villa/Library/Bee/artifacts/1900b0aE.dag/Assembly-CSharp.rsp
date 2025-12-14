@@ -431,6 +431,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/HDRP_Oak_Tree/Offer/Asset_Store_Offers.cs"
+"Assets/HDRP_Oak_Tree/Scripts/Oak_CameraMove.cs"
 "Assets/HyperLuminal/SlidingTilePuzzle/Scripts/ST_PuzzleDisplay.cs"
 "Assets/HyperLuminal/SlidingTilePuzzle/Scripts/ST_PuzzleTile.cs"
 "Assets/Scenes/Scripts/CameraControl.cs"
@@ -441,6 +443,8 @@
 "Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/WallController.cs"
 "Assets/Scenes/Scripts/ItemUse.cs"
 "Assets/Scenes/Scripts/UniversalRoomController.cs"
+"Assets/Tree_Packs/URP_Tree_Pack/Scripts/LB_CameraMove.cs"
+"Assets/Tree_Packs/URP_Tree_Pack/Scripts/Tree_Packs.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
