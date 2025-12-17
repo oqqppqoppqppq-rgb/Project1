@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME" at "2025-12-14T09:50:26.4954255Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME" at "2025-12-14T16:01:05.39574Z"
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 16116 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-14T09:50:26Z
+Date: 2025-12-14T16:01:05Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55375
+50676
 -licensingIpc
 LicenseClient-HOME
 -job-worker-count
@@ -65,12 +65,12 @@ C:/Users/HOME/Documents/GitHub/Project1/Valdhés su Villa
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18196]  Target information:
+Player connection [14076]  Target information:
 
-Player connection [18196]  * "[IP] 192.168.0.65 [Port] 0 [Flags] 2 [Guid] 3878939589 [EditorId] 3878939589 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MOMKQ24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14076]  * "[IP] 192.168.0.65 [Port] 0 [Flags] 2 [Guid] 1760159991 [EditorId] 1760159991 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MOMKQ24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18196] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18196] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14076] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,12 +79,12 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              b05a8b42abae4cfda01e3ac986b0b434
+  Session Id:              683200cd6edb4ff28ea728cc2b5528ea
   Correlation Id:          0a1fab51d25f0c83ef44513c723fc9eb
-  External correlation Id: 9151613930827925789
+  External correlation Id: 7359138607507780752
   Machine Id:              p2zqx2RjvcmlaFMCS3B3Azs/qVA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HOME" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME-notifications" at "2025-12-14T09:50:26.5417404Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HOME" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HOME-notifications" at "2025-12-14T16:01:05.4493357Z"
 [Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -109,43 +109,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001595 seconds.
-- Loaded All Assemblies, in  0.328 seconds
+Registered in 0.001120 seconds.
+- Loaded All Assemblies, in  0.447 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.392 seconds
-Domain Reload Profiling: 718ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (108ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (158ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (392ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (420ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (345ms)
+		SetupLoadedEditorAssemblies (381ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
+			InitializePlatformSupportModulesInManaged (57ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -160,43 +160,43 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.292 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.284 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.379 seconds
-Domain Reload Profiling: 669ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  0.457 seconds
+Domain Reload Profiling: 738ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (8ms)
-		LoadAssemblies (104ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (9ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (5ms)
+		AnalyzeDomain (6ms)
 			TypeCache.Refresh (3ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (380ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (457ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (291ms)
+		SetupLoadedEditorAssemblies (347ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (139ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -209,23 +209,61 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6114 unused Assets / (7.1 MB). Loaded Objects now: 6719.
-Memory consumption went from 121.2 MB to 114.2 MB.
-Total: 13.675000 ms (FindLiveObjects: 0.781600 ms CreateObjectMapping: 0.995200 ms MarkObjects: 7.670400 ms  DeleteObjects: 4.221800 ms)
+Unloading 6116 unused Assets / (6.4 MB). Loaded Objects now: 6722.
+Memory consumption went from 121.5 MB to 115.1 MB.
+Total: 11.629400 ms (FindLiveObjects: 0.726800 ms CreateObjectMapping: 0.983600 ms MarkObjects: 5.617700 ms  DeleteObjects: 4.296900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7073.436454 seconds.
-  path: Assets/Деревья/деревья/thumbnail.jpg
-  artifactKey: Guid(5831c0f12c102e041a66ae63f4243b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Деревья/деревья/thumbnail.jpg using Guid(5831c0f12c102e041a66ae63f4243b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9271fa9505f01c4f23ea9c6f5e3c116b') in 0.1362499 seconds
+  Time since last request: 29312.599640 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Textures/Leaf/Materials/URP_3_Leaf 6.mat
+  artifactKey: Guid(db7af66ca10ac3c4bb9a1c5c12a69ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Textures/Leaf/Materials/URP_3_Leaf 6.mat using Guid(db7af66ca10ac3c4bb9a1c5c12a69ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Error assigning 3D texture to 2D texture property '_BaseMap': Dimensions must match
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:HasProperty (int)
+UnityEngine.Material:HasProperty (string)
+UnityEditor.Utils.PerformanceChecks:CheckMaterial (UnityEngine.Material,UnityEditor.BuildTarget)
+UnityEditor.MaterialEditor:PropertiesChanged ()
+UnityEditor.MaterialEditor:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContextInternal (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Shaders\ShaderImpl\ShaderTextureProperty.h line 41]
+
+ -> (artifact id: '2bf94a02e00100e15d404d3fa50d6300') in 0.2260741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Textures/Leaf/Materials/URP_3_Leaf 4.mat
+  artifactKey: Guid(7ff484f6cabcbff41ac27fd51d4d6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Textures/Leaf/Materials/URP_3_Leaf 4.mat using Guid(7ff484f6cabcbff41ac27fd51d4d6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Error assigning 3D texture to 2D texture property '_MainTex': Dimensions must match
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Shaders\ShaderImpl\ShaderTextureProperty.h line 41]
+
+ -> (artifact id: 'de1218048fad2d12d739332db4f3e74c') in 0.0650454 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
