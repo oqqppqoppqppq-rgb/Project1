@@ -6,6 +6,8 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+=======
 AssetOrigin:
   serializedVersion: 1
   productId: 253340
@@ -13,3 +15,4 @@ AssetOrigin:
   packageVersion: 1.2.3
   assetPath: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/Materials/Trunk.mat
   uploadId: 755976
+>>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
