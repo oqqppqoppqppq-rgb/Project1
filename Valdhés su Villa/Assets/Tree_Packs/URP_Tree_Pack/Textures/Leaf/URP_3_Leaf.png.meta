@@ -1,14 +1,5 @@
 fileFormatVersion: 2
 guid: 22240601055987b4ea815af3f7d81e40
-<<<<<<< HEAD
-<<<<<<< HEAD
-TextureImporter:
-  internalIDToNameTable: []
-  externalObjects: {}
-  serializedVersion: 12
-=======
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
 AssetOrigin:
   serializedVersion: 1
   productId: 253340
@@ -20,10 +11,6 @@ TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
-<<<<<<< HEAD
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -40,27 +27,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     flipGreenChannel: 0
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
-    flipGreenChannel: 0
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  ignoreMasterTextureLimit: 0
-=======
   ignoreMipmapLimit: 0
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
-  ignoreMipmapLimit: 0
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -90,15 +62,7 @@ TextureImporter:
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  textureShape: 1
-=======
   textureShape: 8
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
-  textureShape: 8
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
   singleChannelComponent: 0
   flipbookRows: 1
   flipbookColumns: 1
@@ -107,22 +71,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 3
-=======
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
-<<<<<<< HEAD
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -132,22 +84,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -157,22 +97,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -182,22 +110,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -207,28 +123,14 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     ignorePlatformSupport: 0
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
-    ignorePlatformSupport: 0
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     customData: 
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
-    customData: 
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     physicsShape: []
     bones: []
     spriteID: 
@@ -238,25 +140,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    nameFileIdTable: {}
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253340
-  packageName: URP Tree Models
-  packageVersion: 1.2.3
-  assetPath: Assets/Tree_Packs/URP_Tree_Pack/Textures/Leaf/URP_3_Leaf.png
-  uploadId: 755976
-=======
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
     spriteCustomMetadata:
       entries: []
     nameFileIdTable: {}
@@ -265,7 +148,3 @@ AssetOrigin:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-<<<<<<< HEAD
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
-=======
->>>>>>> 6cc9ce134dd0b4372a46fbd0722bc4389babdbbc
