@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0810379848a0c454cb0735887040a649
+timeCreated: 1436520985
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41798
+  packageName: Sliding Tile Puzzle Game
+  packageVersion: 1.1
+  assetPath: Assets/HyperLuminal/SlidingTilePuzzle/Prefabs/SlidingTile_5by5.prefab
+  uploadId: 90111

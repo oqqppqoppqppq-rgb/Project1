@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0142adcca7b4f9f40a484b1b4b81ccf7
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216656
+  packageName: "Extrude Mesh Along B\xE9zier Tool"
+  packageVersion: 1.0.0
+  assetPath: Assets/ExtrudeMeshAlongBezierTool/Examples/ExampleScene.unity
+  uploadId: 491280

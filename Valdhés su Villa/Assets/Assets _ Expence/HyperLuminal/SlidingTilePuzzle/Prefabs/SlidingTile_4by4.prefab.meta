@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b4d22fd11ab1fd4eae7832a25155edb
+timeCreated: 1429302254
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41798
+  packageName: Sliding Tile Puzzle Game
+  packageVersion: 1.1
+  assetPath: Assets/HyperLuminal/SlidingTilePuzzle/Prefabs/SlidingTile_4by4.prefab
+  uploadId: 90111

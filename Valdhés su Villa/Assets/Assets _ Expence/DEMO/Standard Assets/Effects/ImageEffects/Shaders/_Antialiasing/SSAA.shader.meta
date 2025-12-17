@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: d703cd871b66efc44b51de99f3028adf
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 46755
+  packageName: Tea and Coffee service
+  packageVersion: 1.0
+  assetPath: Assets/DEMO/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader
+  uploadId: 82807

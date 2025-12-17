@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 290fd2f964578df4882f19e95c57306c
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 46755
+  packageName: Tea and Coffee service
+  packageVersion: 1.0
+  assetPath: Assets/DEMO/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader
+  uploadId: 82807

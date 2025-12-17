@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f05890b2e566827449e6ae6323316a57
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 46755
+  packageName: Tea and Coffee service
+  packageVersion: 1.0
+  assetPath: Assets/DEMO/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader
+  uploadId: 82807
