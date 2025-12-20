@@ -1,125 +1,119 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class WallController : MonoBehaviour
-
 {
-    public Transform[] walls = new Transform[4]; // Создание 4-х стен
+    [Header("Walls Setup")]
+    public Transform[] walls = new Transform[4]; // 0:N, 1:W, 2:S, 3:E
 
-    public List <Transform>[] wallObjects = new List <Transform>[4]; // Создание листа, для задачи объектов, принадлежащих определённой стене (будет двигаться вместе с ней)
+    [Header("Settings")]
+    public float moveSpeed = 1f;
 
-    public float moveTime = 0.5f;
-
-    private int currentView = 0;
-    private bool Move = false;
-
-    private Vector3 hiddenPos = new Vector3(0, 100f, 0);
-
-    private Vector3[] wStartPos = new Vector3[4];
-
-    private int[,] views = 
-    {
-        {0, 1, 3, 2}, // 0 - North, 1 - West, 2 - South, 3 - East
-        {0, 3, 1, 2},
-        {2, 3, 0, 1},
-        {2, 1, 3, 0}
-    };
-
-    public void AddObject(Transform obj, int wallIndex)
-    {
-
-        if (wallIndex >= 0 && wallIndex < 4)
-            wallObjects[wallIndex].Add(obj);
-
-    }
-
+    private Vector3 upPosition = new Vector3(0, 100, 0);
+    private Vector3[] wallDownPositions = new Vector3[4];
+    private Coroutine activeCoroutine;
 
     void Start()
-    { 
-        for(int i = 0; i < 4; i++)
-        
+    {
+        for (int i = 0; i < 4; i++)
+            if (walls[i] != null) wallDownPositions[i] = walls[i].position;
+
+        SetupInitialState();
+    }
+
+    void SetupInitialState()
+    {
+        // Поднимаем все стены
+        foreach (Transform wall in walls)
+            if (wall != null) wall.position = upPosition;
+
+        // Показываем стены для вида 0
+        ShowWallsForView(0);
+    }
+
+    public void SwitchToView(int newView)
+    {
+        if (activeCoroutine != null) return;
+        activeCoroutine = StartCoroutine(ChangeWalls(newView));
+    }
+
+    IEnumerator ChangeWalls(int view)
+    {
+        int[] wallsToShow = GetWallsToShow(view);
+        int[] wallsToHide = GetWallsToHide(view);
+
+        float elapsed = 0f;
+
+        while (elapsed < moveSpeed)
         {
-            wallObjects[i] = new List <Transform> ();
+            float t = elapsed / moveSpeed;
 
-            if(walls[i] != null)
-                wStartPos[i] = walls[i].position;
-        }
+            // Плавно скрываем стены
+            foreach (int wallIndex in wallsToHide)
+                MoveWall(wallIndex, t, false);
 
-        Walls(0);
-    }
+            // Плавно показываем стены
+            foreach (int wallIndex in wallsToShow)
+                MoveWall(wallIndex, t, true);
 
-    void Update()
-
-    {
-        if (Move) return;
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) Walls(-1); // <-- binds
-        else if (Input.GetKeyDown(KeyCode.RightArrow)) Walls(1); // -->
-        else if (Input.GetKeyDown(KeyCode.Alpha1)) Walls(0); // 1
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) Walls(1); // 2
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) Walls(2); // 3
-        else if (Input.GetKeyDown(KeyCode.Alpha4)) Walls(3); // 4
-    }
-
-    void View(int direction)
-
-    {
-
-        int newView = (currentView + direction + 4) % 4; // Всего 4 вида
-        StartCoroutine(MoveWalls(newView));
-
-    }
-
-    void Walls(int view)
-
-    {
-
-        if (view < 0 || view > 3 || Move) return;
-
-        if (Move)
-
-        {
-
-            StopAllCoroutines();
-            Move = false;
-
-        }
-
-        StartCoroutine(MoveWalls(view));
-    }
-
-    IEnumerator MoveWalls(int newView)
-
-    {
-        Move = true;
-
-        int hide1 = views[currentView, 2];
-        int hide2 = views[currentView, 3];
-        int show1 = views[newView, 0];
-        int show2 = views[newView, 1];
-
-        float time = 0f;
-
-        while (time < moveTime)
-        {
-            float t = time / moveTime;
-
-            walls[hide1].position = Vector3.Lerp(walls[hide1].position, hiddenPos, t);
-            walls[hide2].position = Vector3.Lerp(walls[hide2].position, hiddenPos, t);
-            walls[show1].position = Vector3.Lerp(walls[show1].position, wStartPos[show1], t);
-            walls[show2].position = Vector3.Lerp(walls[show2].position, wStartPos[show2], t);
-
-            time += Time.deltaTime;
+            elapsed += Time.deltaTime;
             yield return null;
         }
 
-        walls[hide1].position = hiddenPos;
-        walls[hide2].position = hiddenPos;
-        walls[show1].position = wStartPos[show1];
-        walls[show2].position = wStartPos[show2];
+        // Устанавливаем финальные позиции
+        foreach (int wallIndex in wallsToHide)
+            SetWallPosition(wallIndex, false);
 
-        currentView = newView;
-        Move = false;
+        foreach (int wallIndex in wallsToShow)
+            SetWallPosition(wallIndex, true);
+
+        activeCoroutine = null;
+    }
+
+    void MoveWall(int wallIndex, float t, bool show)
+    {
+        if (walls[wallIndex] == null) return;
+
+        Vector3 startPos = show ? upPosition : wallDownPositions[wallIndex];
+        Vector3 targetPos = show ? wallDownPositions[wallIndex] : upPosition;
+
+        walls[wallIndex].position = Vector3.Lerp(startPos, targetPos, t);
+    }
+
+    void SetWallPosition(int wallIndex, bool show)
+    {
+        if (walls[wallIndex] == null) return;
+        walls[wallIndex].position = show ? wallDownPositions[wallIndex] : upPosition;
+    }
+
+    void ShowWallsForView(int view)
+    {
+        int[] wallsToShow = GetWallsToShow(view);
+        foreach (int wallIndex in wallsToShow)
+            SetWallPosition(wallIndex, true);
+    }
+
+    int[] GetWallsToShow(int view)
+    {
+        return view switch
+        {
+            0 => new int[] { 0, 1 }, // Север + Запад
+            1 => new int[] { 0, 3 }, // Север + Восток
+            2 => new int[] { 2, 3 }, // Юг + Восток
+            3 => new int[] { 1, 2 }, // Запад + Юг
+            _ => new int[0]
+        };
+    }
+
+    int[] GetWallsToHide(int view)
+    {
+        return view switch
+        {
+            0 => new int[] { 2, 3 }, // Юг + Восток
+            1 => new int[] { 1, 2 }, // Запад + Юг
+            2 => new int[] { 0, 1 }, // Север + Запад
+            3 => new int[] { 0, 3 }, // Север + Восток
+            _ => new int[0]
+        };
     }
 }

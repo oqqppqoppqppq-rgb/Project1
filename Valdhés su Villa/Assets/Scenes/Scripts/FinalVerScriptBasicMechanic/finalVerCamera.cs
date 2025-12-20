@@ -1,58 +1,49 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
-public class finalVerCamera : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
-    public Vector3[] pos = new Vector3[4];
-    public Vector3[] rot = new Vector3[4];
-    public float speed = 0.5f;
-    private bool moving = false;
-    private int current = 0;
+    [Header("Camera Settings")]
+    public Camera mainCamera;
+    public Vector3[] cameraPositions = new Vector3[4];
+    public Vector3[] cameraRotations = new Vector3[4];
+    public float moveSpeed = 1f;
+
+    private Coroutine activeCoroutine;
 
     void Update()
     {
-        if (moving) return;
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) Move(current - 1);
-        if (Input.GetKeyDown(KeyCode.RightArrow)) Move(current + 1);
-        if (Input.GetKeyDown(KeyCode.Alpha1)) Move(0);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) Move(1);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) Move(2);
-        if (Input.GetKeyDown(KeyCode.Alpha4)) Move(3);
+        if (Input.GetKeyDown(KeyCode.Alpha1)) MoveToView(0);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) MoveToView(1);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) MoveToView(2);
+        if (Input.GetKeyDown(KeyCode.Alpha4)) MoveToView(3);
     }
 
-    void Move(int num)
+    public void MoveToView(int view)
     {
-        if (num < 0) num = 3;
-        if (num > 3) num = 0;
-        if (moving) return;
-
-        StartCoroutine(MoveCam(num));
+        if (activeCoroutine != null) return;
+        activeCoroutine = StartCoroutine(MoveCamera(view));
     }
 
-    IEnumerator MoveCam(int num)
+    IEnumerator MoveCamera(int view)
     {
-        moving = true;
+        Vector3 startPos = mainCamera.transform.position;
+        Quaternion startRot = mainCamera.transform.rotation;
+        Quaternion targetRot = Quaternion.Euler(cameraRotations[view]);
 
-        Vector3 startPos = transform.position;
-        Quaternion startRot = transform.rotation;
-        Quaternion endRot = Quaternion.Euler(rot[num]);
+        float elapsed = 0f;
 
-        float time = 0f;
-        while (time < speed)
+        while (elapsed < moveSpeed)
         {
-            float t = time / speed;
-
-            transform.position = Vector3.Lerp(startPos, pos[num], t);
-            transform.rotation = Quaternion.Lerp(startRot, endRot, t);
-
-            time += Time.deltaTime;
+            float t = elapsed / moveSpeed;
+            mainCamera.transform.position = Vector3.Lerp(startPos, cameraPositions[view], t);
+            mainCamera.transform.rotation = Quaternion.Lerp(startRot, targetRot, t);
+            elapsed += Time.deltaTime;
             yield return null;
         }
 
-        transform.position = pos[num];
-        transform.rotation = endRot;
-        current = num;
-        moving = false;
+        mainCamera.transform.position = cameraPositions[view];
+        mainCamera.transform.rotation = targetRot;
+        activeCoroutine = null;
     }
 }

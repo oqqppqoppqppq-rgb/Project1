@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ProjectScene2.unity
+- path: Assets/Scenes/FinalScenes/Room 1(Outdoor).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
