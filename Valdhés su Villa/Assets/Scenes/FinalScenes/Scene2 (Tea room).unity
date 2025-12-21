@@ -261,7 +261,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e0147d112a86dc2418753410beb97632, type: 2}
+      objectReference: {fileID: 2100000, guid: 5551299d95978cc4fa190ffeaf084b34, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (26)
@@ -269,7 +269,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1347213068}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1347213069}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!1001 &98399892
 PrefabInstance:
@@ -334,7 +340,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4e170011faa065c429a98dc6fb9e956f, type: 2}
+      objectReference: {fileID: 2100000, guid: 161a60ea15ef48b4b8f719a8ad719095, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (29)
@@ -342,7 +348,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1045755460}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1045755461}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!4 &100062129 stripped
 Transform:
@@ -1098,6 +1110,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 577595225f6de7447b198f1535f03034, type: 3}
+--- !u!1 &514295836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 1251407526}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &526226225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: de1712620d1ab4846a5fc78efd6ecc1c, type: 3}
@@ -1842,7 +1859,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4e170011faa065c429a98dc6fb9e956f, type: 2}
+      objectReference: {fileID: 2100000, guid: f814e5ef8f7e65144a482be295339838, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (27)
@@ -1850,7 +1867,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978987330}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978987331}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!1001 &773963270
 PrefabInstance:
@@ -2249,7 +2272,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d9358aa6aa05aeb449a14a06693215ce, type: 2}
+      objectReference: {fileID: 2100000, guid: 1faf902a8a16c5f489354be024f81137, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (15)
@@ -2257,13 +2280,59 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482845580}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482845581}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!4 &956633534 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6198096c0c7a12c439eb7c3641e1d8ae, type: 3}
   m_PrefabInstance: {fileID: 538446038}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &971235409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 1852133886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &971235412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971235409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 3
+  currentPos: 3
+--- !u!65 &971235413
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971235409}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.22041243, z: 0.10283174}
+  m_Center: {x: 0.00000055276956, y: 0.11020603, z: 0.0000010371011}
 --- !u!4 &1010689893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -2274,6 +2343,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 347f56b195029d742b6bd3b4dced4729, type: 3}
   m_PrefabInstance: {fileID: 904069524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1045755457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 98399892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1045755460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045755457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 5
+  currentPos: 5
+--- !u!65 &1045755461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045755457}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283159, y: 0.0710679, z: 0.10283176}
+  m_Center: {x: 0.0000005528107, y: 0.035532866, z: 0.0000010379136}
 --- !u!1001 &1053272333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2337,7 +2446,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4e170011faa065c429a98dc6fb9e956f, type: 2}
+      objectReference: {fileID: 2100000, guid: 5ad960b3708e3904a81051bb6357dd2e, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (28)
@@ -2345,7 +2454,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023305928}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023305929}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!1 &1072845732
 GameObject:
@@ -2854,7 +2969,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167831586}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: dc5d9945da739e7488e5a0a4a19805bf, type: 2}
   m_CullingMode: 0
@@ -3062,7 +3177,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 328d6d72dba332149a4de8cf795646d5, type: 2}
+      objectReference: {fileID: 2100000, guid: 8798290ff6a7eb243bff80d0da083981, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (13)
@@ -3070,13 +3185,94 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253166290}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253166291}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!4 &1253166287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
   m_PrefabInstance: {fileID: 1251407526}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1253166290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514295836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 0
+  currentPos: 0
+--- !u!65 &1253166291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514295836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.07638161, z: 0.10283174}
+  m_Center: {x: 0.0000005527654, y: 0.09725066, z: 0.0000010371011}
+--- !u!1 &1297727206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 1329163880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1297727209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297727206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 1
+  currentPos: 1
+--- !u!65 &1297727210
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297727206}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.22006583, z: 0.10283174}
+  m_Center: {x: 0.000000552768, y: 0.1100327, z: 0.0000010371011}
 --- !u!4 &1308592023 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -3402,7 +3598,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b54aa943710a4c44d88f497c4b4878ef, type: 2}
+      objectReference: {fileID: 2100000, guid: ec941ccefec545947b7978d86872f3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (14)
@@ -3410,13 +3606,64 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297727209}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297727210}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+--- !u!1 &1342875617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 770932892}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1345326443 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06fab24394ef2aa4d946137c523cbde9, type: 3}
   m_PrefabInstance: {fileID: 1177731732}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1347213065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 64693992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1347213068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347213065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 7
+  currentPos: 7
+--- !u!65 &1347213069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347213065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.10573743, z: 0.10283174}
+  m_Center: {x: 0.00000055276763, y: 0.052868474, z: 0.0000010371011}
 --- !u!1001 &1354086490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3499,6 +3746,8 @@ GameObject:
   - component: {fileID: 1373543048}
   - component: {fileID: 1373543047}
   - component: {fileID: 1373543046}
+  - component: {fileID: 1373543052}
+  - component: {fileID: 1373543051}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -3666,6 +3915,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1373543051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373543045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6afe854ed6d8d4ca1b3fdf19f1b221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropController
+  obj: {fileID: 2055463760}
+  target: {x: 3.726, y: 1.268, z: -5.435}
+  speed: 10
+--- !u!114 &1373543052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373543045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0afc17cbd0e69c4eadeefbb72dec2a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleManagerSimple
+  pieces:
+  - {fileID: 1253166290}
+  - {fileID: 1297727209}
+  - {fileID: 1482845580}
+  - {fileID: 971235412}
+  - {fileID: 2023305928}
+  - {fileID: 1045755460}
+  - {fileID: 1978987330}
+  - {fileID: 1347213068}
+  dropController: {fileID: 1373543051}
 --- !u!4 &1384977955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -3809,6 +4095,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+--- !u!1 &1482845577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 924074592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1482845580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482845577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 2
+  currentPos: 2
+--- !u!65 &1482845581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482845577}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.16626778, z: 0.10283174}
+  m_Center: {x: 0.0000005527695, y: 0.0831328, z: 0.0000010371011}
 --- !u!4 &1488574028 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -3885,11 +4211,11 @@ PrefabInstance:
     - target: {fileID: -3162623529752312844, guid: f9c682edcdded39429a2d128113e1a64, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f3df1834c230504478954f1ff403eb0c, type: 2}
+      objectReference: {fileID: 2100000, guid: 667a9f209a76dea4d9107fc92e68b273, type: 2}
     - target: {fileID: -121660838490694163, guid: f9c682edcdded39429a2d128113e1a64, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ee30e8867bf29ab47ae2e2558df56628, type: 2}
+      objectReference: {fileID: 2100000, guid: 667a9f209a76dea4d9107fc92e68b273, type: 2}
     - target: {fileID: 919132149155446097, guid: f9c682edcdded39429a2d128113e1a64, type: 3}
       propertyPath: m_Name
       value: "\u0411\u0435\u0437 \u0438\u043C\u0435\u043D\u0438"
@@ -3905,7 +4231,7 @@ PrefabInstance:
     - target: {fileID: 6617039650902605034, guid: f9c682edcdded39429a2d128113e1a64, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ee30e8867bf29ab47ae2e2558df56628, type: 2}
+      objectReference: {fileID: 2100000, guid: 667a9f209a76dea4d9107fc92e68b273, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -6645740678207380419, guid: f9c682edcdded39429a2d128113e1a64, type: 3}
@@ -4996,7 +5322,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 0b55c58a574f0a74c833410d4bd45a62, type: 2}
+      objectReference: {fileID: 2100000, guid: aea0361272b06ad4ea599429fa3bbf56, type: 2}
     - target: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_Name
       value: ceramic_tea_glass (25)
@@ -5004,7 +5330,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971235412}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971235413}
   m_SourcePrefab: {fileID: 100100000, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
 --- !u!4 &1862822858 stripped
 Transform:
@@ -5378,6 +5710,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
   m_PrefabInstance: {fileID: 770932892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1978987330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342875617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 6
+  currentPos: 6
+--- !u!65 &1978987331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342875617}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.1440565, z: 0.10283174}
+  m_Center: {x: 0.00000055276826, y: 0.07202906, z: 0.0000010371011}
 --- !u!1001 &1987285775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5589,6 +5956,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 054e41663f1d7364d8a122a1c1992b36, type: 3}
+--- !u!1 &2023305925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
+  m_PrefabInstance: {fileID: 1053272333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2023305928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023305925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
+  correctPos: 4
+  currentPos: 4
+--- !u!65 &2023305929
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023305925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10283156, y: 0.1678015, z: 0.10283174}
+  m_Center: {x: 0.00000055276666, y: 0.0839006, z: 0.0000010371011}
 --- !u!1 &2035632064
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,6 +6008,7 @@ GameObject:
   - component: {fileID: 2035632067}
   - component: {fileID: 2035632066}
   - component: {fileID: 2035632065}
+  - component: {fileID: 2035632069}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Untagged
@@ -5627,8 +6035,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9553472, y: 1, z: 1}
+  m_Center: {x: -0.02232659, y: 0, z: 0}
 --- !u!23 &2035632066
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5700,6 +6108,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035632069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035632064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fa2fd6c7520ab4eb0115bad071bee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraZoomToObject
+  targetCamera: {fileID: 768029672}
+  cameraPosition: {x: 5.5964, y: 2.5023, z: -5.386}
+  cameraRotation: {x: 15, y: 270, z: 0}
 --- !u!4 &2039869733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -5817,6 +6240,117 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2055463760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055463764}
+  - component: {fileID: 2055463763}
+  - component: {fileID: 2055463762}
+  - component: {fileID: 2055463761}
+  m_Layer: 0
+  m_Name: Cube (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2055463761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055463760}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2055463762
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055463760}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 94d720a240b66a2418a76b6bd69fe1ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2055463763
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055463760}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2055463764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055463760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 3.726, y: 79.4, z: -5.435}
+  m_LocalScale: {x: 0.001, y: 0.6, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!4 &2107008364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -5829,6 +6363,7 @@ SceneRoots:
   - {fileID: 768029673}
   - {fileID: 1724975638}
   - {fileID: 1812360148}
+  - {fileID: 2055463764}
   - {fileID: 1095008051}
   - {fileID: 310137323}
   - {fileID: 1790306898}

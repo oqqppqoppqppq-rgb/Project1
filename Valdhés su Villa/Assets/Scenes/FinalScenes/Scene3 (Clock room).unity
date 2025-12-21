@@ -267,7 +267,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48cf094c0fa85304fbfa6edb1c0f862d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1172811165}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48cf094c0fa85304fbfa6edb1c0f862d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1172811164}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48cf094c0fa85304fbfa6edb1c0f862d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1172811163}
   m_SourcePrefab: {fileID: 100100000, guid: 48cf094c0fa85304fbfa6edb1c0f862d, type: 3}
 --- !u!1001 &74677754
 PrefabInstance:
@@ -2281,6 +2290,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
   sceneID: 5
+--- !u!1 &1172811162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 48cf094c0fa85304fbfa6edb1c0f862d, type: 3}
+  m_PrefabInstance: {fileID: 42063186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1172811163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172811162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1884a3d9cd0cc9644914304cb2dca0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Phone
+  sound: {fileID: 8300000, guid: 13ea43e9960ae344887a00b8103dbfae, type: 3}
+--- !u!65 &1172811164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172811162}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.2807865, y: 4.8489556, z: 5.432865}
+  m_Center: {x: -0.3937306, y: 1.9244778, z: 0.58474123}
+--- !u!114 &1172811165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172811162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fa2fd6c7520ab4eb0115bad071bee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraZoomToObject
+  targetCamera: {fileID: 474919579}
+  cameraPosition: {x: 34.7, y: 3.55, z: 48.9}
+  cameraRotation: {x: 20, y: -30, z: 0}
 --- !u!4 &1218554963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7b5389438a741114899968cfe2994fcf, type: 3}
