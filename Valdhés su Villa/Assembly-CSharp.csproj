@@ -62,8 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Assets _ Expence\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleDisplay.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\scripts for puzzels\Safe puzzle\SafePuzzle.cs" />
     <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\fullversoptimiz.cs" />
     <Compile Include="Assets\HDRP_Oak_Tree\Offer\Asset_Store_Offers.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\Travel Script.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\Scripts to Button\SceneSwitchObject.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\ZoomObject.cs" />
     <Compile Include="Assets\Scenes\Scripts\UniversalRoomController.cs" />
     <Compile Include="Assets\Assets _ Expence\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleTile.cs" />
     <Compile Include="Assets\Assets %3b Expence\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleTile.cs" />
@@ -75,11 +79,14 @@
     <Compile Include="Assets\Scenes\Scripts\CameraControl.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\Master.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\scripts for puzzels\Safe puzzle\SafeCircle..cs" />
     <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\finalVerCamera.cs" />
     <Compile Include="Assets\Tree_Packs\URP_Tree_Pack\Scripts\LB_CameraMove.cs" />
     <Compile Include="Assets\Scenes\Scripts\animtutor1.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraZOOMscript.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\scripts for puzzels\Safe puzzle\OpenButton.cs" />
     <Compile Include="Assets\Scenes\Scripts\ItemUse.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\Scripts to Button\SceneLoader.cs" />
     <Compile Include="Assets\HDRP_Oak_Tree\Scripts\Oak_CameraMove.cs" />
     <Compile Include="Assets\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleTile.cs" />
     <Compile Include="Assets\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleDisplay.cs" />

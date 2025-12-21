@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/FinalScenes/Scene4 (attic).unity
+- path: Assets/Scenes/FinalScenes/Room0(Tutor).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
