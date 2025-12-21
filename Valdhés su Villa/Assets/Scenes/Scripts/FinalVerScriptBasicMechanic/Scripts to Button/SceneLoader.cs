@@ -5,8 +5,17 @@ public class SceneLoader : MonoBehaviour
 {
     public int sceneID = 1;
 
-    public void LoadScene()
+    void Start()
     {
-        SceneManager.LoadScene(sceneID);
+        if (GetComponent<Collider>() == null)
+            gameObject.AddComponent<BoxCollider>();
+    }
+
+    void OnMouseDown()
+    {
+        if (sceneID >= 0 && sceneID < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(sceneID);
+        }
     }
 }

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts to button\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts to button\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\safecircle..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\safecircle..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\safepuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\safepuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\safepuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@cc5029882822\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\openbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\openbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts for puzzels\\safe puzzle\\openbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\zoomobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\zoomobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\zoomobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts to button\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\scripts to button\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\ObjectButtonController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,24 +86,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SafeCircle..cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs",
-              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs*",
-              "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T10:30:48.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SafePuzzle.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafePuzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafePuzzle.cs",
@@ -111,12 +111,11 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafePuzzle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T10:31:02.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-21T10:31:02.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OpenButton.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\OpenButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\OpenButton.cs",
@@ -124,12 +123,11 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\OpenButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T10:31:09.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-21T10:31:09.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Lit.shader",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Library\\PackageCache\\com.unity.render-pipelines.universal@cc5029882822\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@cc5029882822\\Shaders\\Lit.shader",
@@ -137,12 +135,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@cc5029882822\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-12-17T16:01:41.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T16:01:41.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WallController.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\WallController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\WallController.cs",
@@ -150,12 +147,11 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\WallController.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAwFsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:29:54.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T12:29:54.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ZoomObject.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ZoomObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ZoomObject.cs",
@@ -163,20 +159,20 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ZoomObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T09:11:17.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-21T09:11:17.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneLoader.cs",
               "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneLoader.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T07:09:58.468Z"
+              "WhenOpened": "2025-12-21T07:09:58.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
