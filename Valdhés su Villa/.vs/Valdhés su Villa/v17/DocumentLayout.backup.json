@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\puzzle for hall\\buttonpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\beginning and end\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\beginning and end\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\puzzle for hall\\buttonpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\puzzle for hall\\buttonpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|d:\\unity project\\project1\\valdh\u00E9s su villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\pazzle script\\dropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\assets\\scenes\\scripts\\finalverscriptbasicmechanic\\pazzle script\\dropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF81F694-A2EB-C3DD-B3E0-8B58217C9C45}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\finalverscriptbasicmechanic\\pazzle script\\dropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -119,19 +123,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ButtonPuzzleManager.cs",
-              "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs",
-              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs*",
-              "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "Title": "menu.cs",
+              "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\beginning and end\\menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\beginning and end\\menu.cs",
+              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\beginning and end\\menu.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\beginning and end\\menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T18:58:38.556Z",
+              "WhenOpened": "2025-12-22T06:57:40.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ButtonPuzzleManager.cs",
+              "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs",
+              "ToolTip": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Puzzle for Hall\\ButtonPuzzleManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIBJwCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T18:58:38.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DropController.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\DropController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\DropController.cs",
@@ -139,12 +155,11 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\DropController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T18:23:02.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-21T18:23:02.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PuzzlePieceSimple.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\PuzzlePieceSimple.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\PuzzlePieceSimple.cs",
@@ -156,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PuzzleManager8.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\PuzzleManager8.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\PuzzleManager8.cs",
@@ -168,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "PuzzleSystem.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\PuzzleSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\pazzle script\\PuzzleSystem.cs",
@@ -180,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "How to Convert (Obj Fbx...).txt",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Assets to Hall\\5ff1b95a028f4ff49056035a6262df19_g3d\\How to Convert (Obj Fbx...).txt",
               "RelativeDocumentMoniker": "Assets\\Assets to Hall\\5ff1b95a028f4ff49056035a6262df19_g3d\\How to Convert (Obj Fbx...).txt",
@@ -192,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SafeCircle..cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafeCircle..cs",
@@ -204,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SafePuzzle.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafePuzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\SafePuzzle.cs",
@@ -216,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "OpenButton.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\OpenButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\scripts for puzzels\\Safe puzzle\\OpenButton.cs",
@@ -228,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Lit.shader",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Library\\PackageCache\\com.unity.render-pipelines.universal@cc5029882822\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@cc5029882822\\Shaders\\Lit.shader",
@@ -240,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WallController.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\WallController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\WallController.cs",
@@ -252,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ZoomObject.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ZoomObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ZoomObject.cs",
@@ -264,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneLoader.cs",
@@ -276,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Master.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Master.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Master.cs",
@@ -288,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "How to Convert (Obj Fbx...).txt",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Assets to Hall\\50eec47be9fb4e02985864df9fdda4a2_g3d\\How to Convert (Obj Fbx...).txt",
               "RelativeDocumentMoniker": "Assets\\Assets to Hall\\50eec47be9fb4e02985864df9fdda4a2_g3d\\How to Convert (Obj Fbx...).txt",
@@ -299,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ObjectButtonController.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\ObjectButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\ObjectButtonController.cs",
@@ -310,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SceneSwitchObject.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneSwitchObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\SceneSwitchObject.cs",
@@ -322,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CanvasButtonController.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\CanvasButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\CanvasButtonController.cs",
@@ -334,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CanvasButtonForObject.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\CanvasButtonForObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Scripts to Button\\CanvasButtonForObject.cs",
@@ -345,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Travel Script.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Travel Script.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\Travel Script.cs",
@@ -357,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ObjectWall.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ObjectWall.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\ObjectWall.cs",
@@ -369,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "finalVerCamera.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\finalVerCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\finalVerCamera.cs",
@@ -381,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CameraTest1.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\CameraTest1.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\CameraTest1.cs",
@@ -393,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "fullversoptimiz.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\fullversoptimiz.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\FinalVerScriptBasicMechanic\\fullversoptimiz.cs",
@@ -405,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "animtutor1.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\animtutor1.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\animtutor1.cs",
@@ -417,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "finalVerCamera.cs",
               "DocumentMoniker": "D:\\unity project\\Project1\\Valdh\u00E9s su Villa\\Assets\\Scenes\\Scripts\\finalVerCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\finalVerCamera.cs",

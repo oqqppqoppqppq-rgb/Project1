@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.317
+      value: 2.281
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1818,15 +1818,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1479998
+      value: 3.144
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.317
+      value: 1.768
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.43
+      value: -6.385
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2235,11 +2235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.293
+      value: 1.242
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.486
+      value: -4.488
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2311,7 +2311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
   correctPos: 3
-  currentPos: 3
+  currentPos: 6
 --- !u!65 &971235413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2405,15 +2405,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1479998
+      value: 3.144
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.815
+      value: 2.295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.43
+      value: -6.373
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3136,15 +3136,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.144
+      value: 3.148
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.293
+      value: 1.763
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.368
+      value: -5.421
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 370160f3d6511ec42bbcf2c5c5661114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
-  correctPos: 0
+  correctPos: 4
   currentPos: 0
 --- !u!65 &1253166291
 BoxCollider:
@@ -3642,7 +3642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
   correctPos: 7
-  currentPos: 7
+  currentPos: 2
 --- !u!65 &1347213069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4113,7 +4113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
   correctPos: 2
-  currentPos: 2
+  currentPos: 7
 --- !u!65 &1482845581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5281,15 +5281,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.144
+      value: 3.148
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.815
+      value: 1.242
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.368
+      value: -5.433
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5704,7 +5704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88dd027d9ab38a4ba251b836904802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  sceneID: 5
+  sceneID: 6
 --- !u!4 &1978987327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84fa4c644e6cdf149826efb4d5879848, type: 3}
@@ -5723,7 +5723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
   correctPos: 6
-  currentPos: 6
+  currentPos: 3
 --- !u!65 &1978987331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5974,7 +5974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzlePieceSimple
   correctPos: 4
-  currentPos: 4
+  currentPos: 0
 --- !u!65 &2023305929
 BoxCollider:
   m_ObjectHideFlags: 0

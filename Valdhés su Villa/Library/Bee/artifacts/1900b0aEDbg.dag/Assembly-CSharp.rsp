@@ -449,6 +449,7 @@
 "Assets/Scenes/Scripts/CameraControl.cs"
 "Assets/Scenes/Scripts/CameraTest1.cs"
 "Assets/Scenes/Scripts/CameraZOOMscript.cs"
+"Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/beginning and end/menu.cs"
 "Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/finalVerCamera.cs"
 "Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/fullversoptimiz.cs"
 "Assets/Scenes/Scripts/FinalVerScriptBasicMechanic/Master.cs"

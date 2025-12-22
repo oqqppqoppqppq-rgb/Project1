@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SafePuzzle : MonoBehaviour
 {
     public SafeCircle circle1, circle2, circle3;
     public AudioClip wrongSound, openSound;
     public Animator safeAnimator;
+    public int finalScene = 7; // Номер финальной сцены
 
     void Start()
     {
@@ -21,12 +23,34 @@ public class SafePuzzle : MonoBehaviour
 
         if (correct)
         {
-            AudioSource.PlayClipAtPoint(openSound, transform.position);
-            if (safeAnimator) safeAnimator.SetTrigger("Open");
+            OpenSafe();
         }
         else
         {
-            AudioSource.PlayClipAtPoint(wrongSound, transform.position);
+            PlayWrongSound();
         }
+    }
+
+    void OpenSafe()
+    {
+        if (openSound != null)
+            AudioSource.PlayClipAtPoint(openSound, transform.position);
+
+        if (safeAnimator != null)
+            safeAnimator.SetTrigger("Open");
+
+        // Задержка перед загрузкой финальной сцены
+        Invoke("LoadFinalScene", 2f);
+    }
+
+    void LoadFinalScene()
+    {
+        SceneManager.LoadScene(finalScene);
+    }
+
+    void PlayWrongSound()
+    {
+        if (wrongSound != null)
+            AudioSource.PlayClipAtPoint(wrongSound, transform.position);
     }
 }

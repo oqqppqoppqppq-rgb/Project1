@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\ZoomObject.cs" />
     <Compile Include="Assets\Scenes\Scripts\UniversalRoomController.cs" />
     <Compile Include="Assets\Assets _ Expence\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleTile.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\beginning and end\menu.cs" />
     <Compile Include="Assets\Assets %3b Expence\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleTile.cs" />
     <Compile Include="Assets\Scenes\Scripts\FinalVerScriptBasicMechanic\pazzle script\PuzzlePieceSimple.cs" />
     <Compile Include="Assets\Assets %3b Expence\HyperLuminal\SlidingTilePuzzle\Scripts\ST_PuzzleDisplay.cs" />

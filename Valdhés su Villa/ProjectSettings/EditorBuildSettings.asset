@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/FinalScenes/menu.unity
+    guid: 9562144094d59534bbd1be2a1a31d34c
+  - enabled: 1
     path: Assets/Scenes/FinalScenes/Room 1(Outdoor).unity
     guid: 64fbeab639cef334c9263d5d97ce4a73
   - enabled: 1
@@ -26,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalScenes/Scene HALL.unity
     guid: 84fb9adbc3e2e9e4ead8055f67566bcf
+  - enabled: 1
+    path: Assets/Scenes/FinalScenes/End.unity
+    guid: f1b6a90a6904e244c8610660c91241ce
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
