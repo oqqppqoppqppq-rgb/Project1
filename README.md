@@ -1,5 +1,5 @@
 Поскольку, итоговый файл с игрой оказался довольно большим для выгрузки на сайте, вот ссылка на гугл диск с этим файлом - https://drive.google.com/drive/folders/1jEaMA7z5Skl12XNSNvfPK2lrUGGHNpVb?usp=sharing (перед запуском проверьте на VirusTotal для собственной безопасности)
-
+Видеоролик с работой игры - https://drive.google.com/file/d/1MW8ijyISlIgqIvund0x7Ze0pWrDdOhV_/view?usp=sharing
 
 Проект: Valdhés su Villa
 
